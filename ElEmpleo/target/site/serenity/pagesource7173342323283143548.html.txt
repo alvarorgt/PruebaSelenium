@@ -1,0 +1,3223 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+  <meta charset="utf-8" /><script type="text/javascript" src="https://bam.nr-data.net/1/b3a65087b1?a=34835955&amp;v=1118.0c07c19&amp;to=b1EHbENYD0pRVkBYDFYbKG5yFjNcQ0BYRSlXVipeV1wTSnNaWkURV1gJXUMWKFdUUEw%3D&amp;rst=7867&amp;ref=https://www.elempleo.com/co/ofertas-empleo/bogota&amp;ap=478&amp;be=722&amp;fe=7477&amp;dc=1929&amp;af=err,xhr,stn,ins&amp;perf=%7B%22timing%22:%7B%22of%22:1551753649478,%22n%22:0,%22u%22:634,%22ue%22:634,%22f%22:1,%22dn%22:1,%22dne%22:1,%22c%22:1,%22ce%22:1,%22rq%22:11,%22rp%22:630,%22rpe%22:642,%22dl%22:700,%22di%22:1929,%22ds%22:1929,%22de%22:1941,%22dc%22:7476,%22l%22:7476,%22le%22:7491%7D,%22navigation%22:%7B%7D%7D&amp;jsonp=NREUM.setToken"></script><script src="https://js-agent.newrelic.com/nr-1118.min.js"></script><script src="https://connect.facebook.net/signals/config/2012589828987055?v=2.8.42&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="//script.crazyegg.com/pages/scripts/0017/1361.js?431042"></script><script type="text/javascript" async="" src="//www.googleadservices.com/pagead/conversion_async.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://tags.bkrtx.com/js/bk-coretag.js"></script><script src="https://script.crazyegg.com/pages/scripts/0017/1361.js?431042" async="" type="text/javascript"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-PG8W25"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"b3a65087b1","applicationID":"34835955","transactionName":"b1EHbENYD0pRVkBYDFYbKG5yFjNcQ0BYRSlXVipeV1wTSnNaWkURV1gJXUMWKFdUUEw=","queueTime":0,"applicationTime":478,"agent":"","atts":""}</script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQICWV5WARADUFlRAggCUw=="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o&lt;e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&amp;&amp;console.log(t)}catch(n){}}var o,i=t("ee"),a=t(16),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&amp;&amp;"function"==typeof console.log&amp;&amp;(s.console=!0,o.indexOf("dev")!==-1&amp;&amp;(s.dev=!0),o.indexOf("nr_dev")!==-1&amp;&amp;(s.nrDev=!0))}catch(c){}s.nrDev&amp;&amp;i.on("internal-error",function(t){r(t.stack)}),s.dev&amp;&amp;i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&amp;&amp;(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&amp;&amp;u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(17),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&amp;&amp;(t(8),t(7),"addEventListener"in window&amp;&amp;t(5),c.xhrWrappable&amp;&amp;t(9),d=!0)}s.on("fn-start",function(t,n,e){d&amp;&amp;(p+=1)}),s.on("fn-err",function(t,n,e){d&amp;&amp;!e[l]&amp;&amp;(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&amp;&amp;!this.thrown&amp;&amp;p&gt;0&amp;&amp;(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&amp;&amp;window.performance.timing&amp;&amp;window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,v="fn"+h,w="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&amp;&amp;(this.bstStart=g.now())}),o.on(v,function(t,n){var e=t[0];e instanceof b&amp;&amp;i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&amp;&amp;(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&amp;&amp;!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&amp;&amp;o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(19)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&amp;&amp;(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(19)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(19)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(19)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState&gt;3&amp;&amp;!n.resolved&amp;&amp;(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&amp;&amp;(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t&lt;g.length;t++)r([],g[t]);g.length&amp;&amp;(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(19)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(w,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&amp;&amp;m.resolve();if(!v&amp;&amp;!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&amp;&amp;t[0].type===w||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r&lt;d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&amp;&amp;(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&amp;&amp;(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&amp;&amp;null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&amp;&amp;(p&gt;34||p&lt;10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&amp;&amp;"xpid"in NREUM.loader_config&amp;&amp;this.sameOrigin&amp;&amp;n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&amp;&amp;r){var i=h(r);i&amp;&amp;(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&amp;&amp;(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&amp;&amp;(o.onloadCalled||"function"!=typeof n.onload))&amp;&amp;o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s&lt;d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&amp;&amp;"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&amp;&amp;!this.xhrGuids[e]&amp;&amp;(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&amp;&amp;this.xhrGuids[e]&amp;&amp;(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&amp;&amp;"load"===t[0]&amp;&amp;f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&amp;&amp;"load"===t[0]&amp;&amp;f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&amp;&amp;("onload"===e&amp;&amp;(this.onload=!0),("load"===(t[0]&amp;&amp;t[0].type)||this.onload)&amp;&amp;(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&amp;&amp;f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&amp;&amp;o[1]&amp;&amp;(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&amp;&amp;"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&amp;&amp;(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&amp;&amp;n.port===e.port;return r.sameOrigin=i&amp;&amp;(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(16),s=t(17),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&amp;&amp;(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t,n){"string"==typeof t&amp;&amp;(t=new Error(t)),i("err",[t,f.now(),!1,n])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&amp;&amp;t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&amp;&amp;t instanceof ArrayBuffer&amp;&amp;t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&amp;&amp;t instanceof Blob&amp;&amp;t.size)return t.size;if(!("undefined"!=typeof FormData&amp;&amp;t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&amp;&amp;(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split("."),r=n.split("."),a=0;a&lt;r.length;a++)if(r[a]!==e[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&amp;&amp;s.indexOf("Chrome")===-1&amp;&amp;s.indexOf("Chromium")===-1&amp;&amp;(o="Safari",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],16:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&amp;&amp;(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],17:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&amp;&amp;(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o&lt;0?0:o);++r&lt;o;)i[r]=t[n+r];return i}n.exports=r},{}],18:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&amp;&amp;window.performance.timing&amp;&amp;"undefined"!=typeof window.performance.timing.navigationStart}},{}],19:[function(t,n,e){function r(t){return!(t&amp;&amp;t instanceof Function&amp;&amp;t.apply&amp;&amp;!t[a])}var o=t("ee"),i=t(17),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c&lt;n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&amp;&amp;Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&amp;&amp;(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&amp;&amp;t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&amp;&amp;t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f&lt;c;f++)s[f].apply(a,r);var d=u[g[e]];return d&amp;&amp;d.push([b,e,r,a]),a}}function p(t,n){y[t]=m(t).concat(n)}function h(t,n){var e=y[t];if(e)for(var r=0;r&lt;e.length;r++)e[r]===n&amp;&amp;e.splice(r,1)}function m(t){return y[t]||[]}function v(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",g[e]=n,n in u||(u[n]=[])})}var y={},g={},b={on:p,addEventListener:p,removeEventListener:h,emit:e,get:v,listeners:m,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&amp;&amp;(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(16),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&amp;&amp;Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&amp;&amp;"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!E++){var t=x.info=NREUM.info,n=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&amp;&amp;t.licenseKey&amp;&amp;t.applicationID&amp;&amp;n))return u.abort();f(g,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+x.offset],null,"api");var e=p.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===p.readyState&amp;&amp;i()}function i(){c("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&amp;&amp;performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-x.offset}var s=(new Date).getTime(),c=t("handle"),f=t(16),u=t("ee"),d=t(15),l=window,p=l.document,h="addEventListener",m="attachEvent",v=l.XMLHttpRequest,w=v&amp;&amp;v.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:v,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var y=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=v&amp;&amp;w&amp;&amp;w[h]&amp;&amp;!/CriOS/.test(navigator.userAgent),x=n.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:b,userAgent:d};t(12),p[h]?(p[h]("DOMContentLoaded",i,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",o),l[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,O=t(18)},{}]},{},["loader",2,10,4,3]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+
+  <link rel="icon" type="image/png" href="/resources/Content/dist/images/favicon.png" />
+  <link rel="shortcut icon" type="image/png" href="/resources/Content/dist/images/favicon.png" />
+
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,500italic|Kreon:400,700" rel="stylesheet" />
+  
+  <script type="text/javascript" src="//cdn-3.convertexperiments.com/js/10014329-10013877.js"></script>
+
+      
+  <link href="/resources/Content/dist/css/layout.min.css" rel="stylesheet" />
+  
+  <link href="/resources/Content/dist/css/Areas/Persons/ResultJobOffers.min.css" rel="stylesheet" />
+
+  
+<script type="application/javascript" src="//ced.sascdn.com/tag/484/smart.js" async=""></script>
+<script type="application/javascript">
+    var sas = sas || {};
+    sas.cmd = sas.cmd || [];
+    sas.cmd.push(function() {
+      if(sas.setup !== undefined) {
+        sas.setup({ networkid: 484, domain: "//ads.eltiempo.co", async: true });
+      }
+    });
+</script>
+  
+      
+  <script src="//assets.adobedtm.com/41d3b477534338831f14b02d7af1cd359b73904f/satelliteLib-08d2699371d5edc2fd778cf562e1060c657326bc.js"></script>
+  
+  <script src="/resources/Scripts/Vendor/omniture_prod.js"></script>
+  <script src="/resources/Scripts/dist/js/layout.main.head.min.js"></script>
+
+  
+  
+  
+
+<title>Ofertas de Empleo Contador en Bogotá - elempleo.com</title>
+
+<meta name="title" content="Ofertas de Empleo Contador en Bogotá - elempleo.com" />
+<meta name="description" content="Ofertas de Trabajo Contador en Bogotá. Miles de ofertas laborales para ti en elempleo.com" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.elempleo.com/co/ofertas-empleo/bogota" />
+<meta property="og:title" content="Ofertas de Empleo Contador en Bogotá - elempleo.com" />
+<meta property="og:description" content="Ofertas de Trabajo Contador en Bogotá. Miles de ofertas laborales para ti en elempleo.com" />
+<meta property="og:image" content="http://www.elempleo.com/resources/Content/dist/images/layout/es-CO_ee_logo_seo.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="600" />
+<meta property="og:image:height" content="315" />
+<meta property="og:site_name" content="elempleo.com" />
+<meta property="og:app_id" content="660708945" />
+
+
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:creator" content="@elempleocom" />
+<meta property="twitter:site" content="elempleo.com" />
+<meta property="twitter:title" content="Ofertas de Empleo Contador en Bogotá - elempleo.com" />
+<meta property="twitter:description" content="Ofertas de Trabajo Contador en Bogotá. Miles de ofertas laborales para ti en elempleo.com" />
+<meta property="twitter:image" content="http://www.elempleo.com/resources/Content/dist/images/layout/es-CO_ee_logo_seo.png" />
+<meta property="twitter:url" content="https://www.elempleo.com/co/ofertas-empleo/bogota" />
+
+
+<link rel="canonical" href="https://www.elempleo.com/co/ofertas-empleo/bogota" />
+
+
+
+  
+<script type="text/javascript">
+  setTimeout(function () {
+    var a = document.createElement("script");
+    var b = document.getElementsByTagName("script")[0];
+    a.src = document.location.protocol + "//script.crazyegg.com/pages/scripts/0017/1361.js?" + Math.floor(new Date().getTime()/3600000);
+    a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)
+  }, 1);
+</script>
+
+
+  
+
+
+  
+
+<style type="text/css">/* Chart.js */
+@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}</style><script id="script-214902-1" type="text/javascript" src="https://ced-ns.sascdn.com/diff/templates/ts/dist/banner/sas-banner-1.2.js" async="true"></script><script src="https://pixel.yabidos.com/fltiu.js?qid=034393f5534393f5734363&amp;cid=647&amp;p=484&amp;s=https%3a%2f%2fwww.elempleo.com&amp;x=SmartAdserver&amp;nci=6369620&amp;nai=8931&amp;adtg=sas_8931&amp;si=22173&amp;ip=181.49.67.72&amp;ua=Mozilla%2f5.0+(Windows+NT+10.0%3b+Win64%3b+x64)+AppleWebKit%2f537.36+(KHTML%2c+like+Gecko)+Chrome%2f72.0.3626.119+Safari%2f537.36&amp;flcb=1494990795" name="f2hyub03sq804"></script><script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1010759038/?random=1551753651934&amp;cv=9&amp;fst=1551753651934&amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=768&amp;u_w=1366&amp;u_ah=728&amp;u_aw=1366&amp;u_cd=24&amp;u_his=3&amp;u_tz=-300&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;sendb=1&amp;frm=0&amp;url=https%3A%2F%2Fwww.elempleo.com%2Fco%2Fofertas-empleo%2Fbogota%3F%26trabajo%3DContador&amp;ref=https%3A%2F%2Fwww.elempleo.com%2Fco&amp;tiba=Ofertas%20de%20Empleo%20Contador%20en%20Bogot%C3%A1%20-%20elempleo.com&amp;rfmt=3&amp;fmt=4"></script><script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1010759038/?random=1551753652385&amp;cv=9&amp;fst=1551753652385&amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=376635471&amp;u_h=768&amp;u_w=1366&amp;u_ah=728&amp;u_aw=1366&amp;u_cd=24&amp;u_his=3&amp;u_tz=-300&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;gtm=2wg241&amp;sendb=1&amp;frm=0&amp;url=https%3A%2F%2Fwww.elempleo.com%2Fco%2Fofertas-empleo%2Fbogota%3F%26trabajo%3DContador&amp;ref=https%3A%2F%2Fwww.elempleo.com%2Fco&amp;tiba=Ofertas%20de%20Empleo%20Contador%20en%20Bogot%C3%A1%20-%20elempleo.com&amp;async=1&amp;rfmt=3&amp;fmt=4"></script></head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage"><div id="flpx" style="display:none;" height="0" width="0"></div>
+  <input class="js-conf-global-data" type="hidden" data-fail-notification-title="¡Lo sentimos!" data-fail-notification="Hemos presentado inconvenientes técnicos. Por favor, inténtalo de nuevo." data-dmp-enable="True" data-facebookpixel-enable="False" data-gtmadbid-enable="True" data-googlesearchtracking-enable="False" />
+  
+
+
+<!-- Google Tag Manager -->
+<noscript>
+  &lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-PG8W25" height="0" width="0" style="display: none; visibility: hidden"&gt;&lt;/iframe&gt;
+</noscript>
+
+<script>
+  (function(w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+      'gtm.start':
+        new Date().getTime(),
+      event: 'gtm.js'
+    });
+    var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s),
+      dl = l != 'dataLayer' ? '&amp;l=' + l : '';
+    j.async = true;
+    j.src =
+      '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+  })(window, document, 'script', 'dataLayer', 'GTM-PG8W25');
+</script>
+
+<script src="/resources/Scripts/Modules/Utilities/GoogleTagsManagerUtility.js"></script>
+
+<!-- End Google Tag Manager -->
+
+  <meta itemprop="isFamilyFriendly" content="true" />
+
+  <div>
+
+    
+    
+
+<div class="modal fade ee-modal-login js-confirm-alert ee-mod-confirm-alert" id="confirmationModal" role="dialog" aria-labelledby="myModalLabel" tabindex="-1">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button class="close" data-dismiss="modal" type="button" aria-label="Close">
+          <i class="fa fa-times-circle"></i>
+        </button>
+        <h3 class="modal-title"></h3>
+        <br />
+        <div class="alert alert-danger js-form-alert hidden" role="alert">
+          Para crear la alerta debes aceptar los términos y condiciones y el aviso de privacidad.
+        </div>
+        <p class="js-description">
+        </p>
+        <div class="ee-confirm-title-settings">
+          <strong>
+            Criterios de búsqueda
+          </strong>
+        </div>
+        <div class="ee-confirm-settings">
+          <p class="js-keyword-alert hide">
+            <i class="fa fa-tag fa-fw settings-icon" title="Palabra clave"></i>
+            <span class="settings-text">
+            </span>
+          </p>
+          <p class="js-salary-alert hide">
+            <i class="fa fa-usd fa-fw settings-icon" title="Salario"></i>
+            <span class="settings-text">
+            </span>
+          </p>
+          <p class="js-city-alert hide">
+            <i class="fa fa-map-marker fa-fw settings-icon" title="Ciudad"></i>
+            <span class="settings-text">
+            </span>
+          </p>
+          <p class="">
+            <i class="fa fa-clock-o fa-fw settings-icon" title="Frecuencia"></i>
+            <span class="settings-text">
+              Frecuencia diaria
+            </span>
+          </p>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div id="messageResponse" class="">
+
+<form action="" class="js-confirm-alert-form" method="post" role="form"><input name="__RequestVerificationToken" type="hidden" value="5pYsoPxUvO0-Ft8vvy_t_W4boIZQ4dUpQnW0shz_h8fkxK8ljt7A8dUVxGMp8avTLHnAnii6y6B4SfbQtw049m6LI4w1" />            <div class="checkbox  ">
+              <label>
+                <input type="checkbox" checked="checked" class="js-check-legal" value="" />
+                Acepto los <a href="/co/terminos-condiciones" title="Términos y condiciones" target="_blank">Términos y condiciones</a> y el <a href="/co/aviso-privacidad" title="Aviso de privacidad" target="_blank">aviso de privacidad del sitio.</a>
+              </label>
+            </div>
+            <button class="btn btn-primary btn-block js-btn-confirm-create" type="submit">
+              <i class="fa fa-bell-o hidden-xs"></i>
+              Crear alerta
+            </button>
+            <input type="hidden" name="JobOfferId" value="" class="js-offer-id" />
+            <input type="hidden" name="Email" value="" class="js-user-email" />
+            <input type="hidden" name="CityId" value="" class="js-city-id" />
+            <input type="hidden" name="SalaryIds" value="" class="js-salary-ids" />
+            <input type="hidden" name="Keyword" value="" class="js-keyword" />
+</form>        </div>
+      </div>
+      <div class="modal-footer modal-footer-alert ee-mod">
+          <h3 class="text-left">
+            ¿Aún no estás registrado?
+          </h3>
+          <p class="text-left">
+            Inscríbete en elempleo.com y aplica a miles de ofertas de las mejores empresas:
+          </p>
+          <a class="btn btn-primary btn-block" href="/co/registro-hoja-de-vida">
+            <i class="fa fa-file-o"></i>
+            Registrar hoja de vida
+          </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+  </div>
+
+
+  <div class="text-center ee-global-spinner-wrapper js-spinner hidden">
+    <i class="fa fa-spinner fa-pulse fa-3x ee-global-spinner"></i>
+  </div>
+
+  
+<div class="alerts">
+    <div class="hide alert alert-warning browser-update js-browser" role="alert">
+        <div class="container">
+            <p class="alert-content ee-mod">Por favor, actualiza tu navegador para tener una mejor experiencia, prueba con <a href="https://www.google.es/chrome/browser/desktop/" target="_blank"> Chrome</a><span>,</span> <a href="https://www.microsoft.com/es-co/download/internet-explorer-11-for-windows-7-details.aspx" target="_blank">Internet explorer</a>.</p>
+        </div>
+    </div>
+</div>
+
+  
+
+
+
+<header class="header">
+  <div class="container">
+
+    <div class="row visible-xs">
+
+      <div class="ee-tool-tip-app-open-banner" style="display: none !important;" data-spy="affix" data-offset-top="100">
+        <iframe style="display:none" height="0" width="0" id="loader"></iframe>
+
+        <div class="col-xs-1" style="padding-left:2px; padding-right:2px; text-align:center;">
+          <button type="button" class="close js-close-app-open-banner-tool-tip-mobile">x</button>
+        </div>
+
+        <div class="col-xs-8" style="color:#000; padding-left:1px; padding-right:8px;">
+
+          <div style="display: table-cell; float:left; margin-top:5px; margin-right:10px;">
+            <img src="/resources/Content/dist/images/layout/ee-logo.png" title="Trabajos y empleos en Colombia" alt="Elempleo.com: el buscador de empleo más grande de Colombia" />
+          </div>
+          <div style="display: table-cell; font-size:13px;">
+            <b style="font-size:14px;">Aprovecha nuestra app</b><br />
+            miles de ofertas laborales.
+          </div>
+
+        </div>
+        <div class="col-xs-3" style="color:#000; float:left; padding-left:1px; padding-right:10px; text-align:center;">
+          <button class="btn btn-primary js-btn-app-open-banner" type="button">
+            ABRIR
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="hidden-xs col-sm-3">
+        <a href="https://www.elempleo.com/co/" rel="nofollow" title="El Empleo">
+          <img class="img-responsive" src="/resources/Content/dist/images/layout/es-CO_ee_logo.svg" title="Trabajos y empleos en Colombia" alt="Elempleo.com: el buscador de empleo más grande de Colombia" width="214" height="50" />
+        </a>
+      </div>
+      <div class="hidden-xs col-sm-6 col-lg-5">
+          <div class="searchbox-wrapper">
+            <form class="js-searchbox-form" data-search-url="/co/ofertas-empleo/">
+              <div class="form-group form-inline ee-searchbox">
+                <label class="sr-only" for="searchBox">
+                  Caja buscador
+                </label>
+                <span class="twitter-typeahead" style="position: relative; display: inline-block;"><input class="form-control js-searchbox-input tt-hint" type="text" maxlength="100" data-search-url="/co/Home/Autocomplete" readonly="" autocomplete="off" spellcheck="false" tabindex="-1" dir="ltr" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; opacity: 1; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);" /><input class="form-control js-searchbox-input tt-input" id="searchBox" type="text" maxlength="100" placeholder="Contador" data-search-url="/co/Home/Autocomplete" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent;" /><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: Ubuntu, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><div class="tt-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none;"><div class="tt-dataset tt-dataset-search"></div></div></span>
+                <button class="btn btn-primary js-btn-search" type="submit">
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+            </form>
+
+            <div class="previous-searches js-previous-searches-wrapper">
+              <span>
+                Últimas búsquedas:
+              </span>
+
+              <span class="js-query-links">
+              <a href="/co/ofertas-empleo/bogota?trabajo=Contador" title="Contador">Contador</a></span>
+            </div>
+          </div>
+      </div>
+
+      <div class="hidden-xs col-sm-3 col-md-3 col-lg-4">
+
+
+
+  <div class="row ee-login-wrapper">
+    <div class="col-xs-12 col-lg-6 col-lg-push-6">
+      <a id="btnlogin" class="btn btn-default btn-block js-log-in" href="/co/iniciar-sesion">
+        <i class="fa fa-user"></i>
+        Inicia sesión
+      </a>
+    </div>
+
+  </div>
+
+      </div>
+    </div>
+  </div>
+
+  
+
+
+
+
+<nav class="navbar navbar-default ee_main-navigation">
+  <div class="container">
+    
+    <div class="navbar-header ee-mod ">
+      <button class="navbar-toggle collapsed ee-mod" type="button" data-toggle="collapse" data-target="#mainnav-toggle-menu" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        
+      </button>
+
+      <a class="visible-xs-inline-block navbar-brand ee-mod" href="https://www.elempleo.com/co/">
+        <img class="img-responsive" src="/resources/Content/dist/images/layout/es-CO_ee_logo_white_transparent.svg" title="Trabajos y empleos en Colombia" alt="Elempleo.com: el buscador de empleo más grande de Colombia" height="33" width="150" />
+      </a>
+
+      
+        <button class="ee-navbar-toggle-search " type="button" data-toggle="collapse" data-target="#mainnav-toggle-search" aria-expanded="false">
+          <span class="sr-only">Toggle search</span>
+          <i class="fa fa-search fa-lg ee-icon"></i>
+        </button>
+    </div>
+
+    
+    <div class="collapse navbar-collapse" id="mainnav-toggle-menu">
+      <ul class="nav navbar-nav navbar-left">
+        
+        <li class="visible-xs-block">
+  <a href="/co/iniciar-sesion">
+    <i class="fa fa-fw fa-user"></i>
+    Iniciar sesión
+  </a>
+
+        </li>
+        <li>
+          <a href="https://www.elempleo.com/co/">
+            <i class="fa fa-fw fa-home visible-xs-inline-block"></i>
+            Inicio
+          </a>
+        </li>
+                  <li>
+            <a href="/co/empleo-vip">
+              <i class="fa fa-fw fa-star visible-xs-inline-block"></i>
+              Elempleo VIP
+            </a>
+          </li>
+        <li>
+          <a href="/co/empleos-empresas/bogota">
+            <i class="fa fa-fw fa-users visible-xs-inline-block"></i>
+            Empresas
+          </a>
+        </li>
+        <li>
+          <a href="/co/calculadora-salarial">
+            <i class="fa fa-fw fa-calculator visible-xs-inline-block"></i>
+            <span class="hidden-sm hidden-md">
+              Calculadora salarial
+            </span>
+            <span class="visible-sm visible-md">
+              Calculadora
+            </span>
+          </a>
+        </li>
+
+        
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false" role="button">
+            <i class="fa fa-fw fa-newspaper-o visible-xs-inline-block"></i>
+            Noticias
+            <span class="caret dropdown-menu-caret"></span>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-navbar">
+            <li>
+              <a href="http://www.elempleo.com/co/noticias/">
+                Home noticias
+              </a>
+            </li>
+            <li>
+              <a href="http://www.elempleo.com/co/noticias/consejos-profesionales/">
+                Consejos profesionales
+              </a>
+            </li>
+            <li>
+              <a href="http://www.elempleo.com/co/noticias/mundo-empresarial/">
+                Mundo empresarial
+              </a>
+            </li>
+            <li>
+              <a href="http://www.elempleo.com/co/noticias/investigacion-laboral/">
+                Investigación laboral
+              </a>
+            </li>
+            <li>
+              <a href="http://www.elempleo.com/co/noticias/tendencias-laborales/">
+                Tendencias laborales
+              </a>
+            </li>
+            <li>
+              <a href="http://www.elempleo.com/co/noticias/noticias-laborales/ ">
+                Otras noticias
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="hidden-sm hidden-sm">
+          <a href="/co/contactenos-quejas-reclamos">
+            <i class="fa fa-fw fa-question-circle visible-xs-inline-block"></i>
+            Contáctanos
+          </a>
+        </li>
+      </ul>
+
+        <a id="btnRegisterCV" class="btn btn-primary navbar-right navbar-btn" href="/co/registro-hoja-de-vida" role="button">
+          <i class="fa fa-fw fa-file-o hidden-sm"></i>
+          <span class="visible-xs-inline visible-md-inline visible-lg-inline">
+            Registrar hoja de vida
+          </span>
+          <span class="hidden-xs hidden-md hidden-lg">
+            Registrarte
+          </span>
+        </a>
+    </div>
+      <div class="collapse search-collapse in" id="mainnav-toggle-search">
+        <form class="searchbox-form-mainnav js-searchbox-form" data-search-url="/co/ofertas-empleo/">
+          <div class="input-group">
+            <span class="twitter-typeahead" style="position: relative; display: inline-block;"><input class="form-control js-searchbox-mobile js-searchbox-input tt-hint" type="text" maxlength="100" data-search-url="/co/Home/Autocomplete" readonly="" autocomplete="off" spellcheck="false" tabindex="-1" dir="ltr" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; opacity: 1; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);" /><input class="form-control js-searchbox-mobile js-searchbox-input tt-input" type="text" maxlength="100" placeholder="Contador" data-search-url="/co/Home/Autocomplete" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent;" /><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: Ubuntu, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><div class="tt-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none;"><div class="tt-dataset tt-dataset-search"></div></div></span>
+
+            <span class="input-group-btn">
+              <button class="btn btn-primary js-btn-search" type="submit">
+                <i class="fa fa-search"></i>
+              </button>
+            </span>
+          </div>
+        </form>
+      </div>
+  </div>
+</nav>
+
+</header>
+
+
+  
+    <div class="js-bread-crumb-wrapper">
+  <div class="container">
+    <ol class="breadcrumb hidden-xs hidden-sm" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+            <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="">
+              <a href="https://www.elempleo.com/co/Home/Index" itemprop="" title="Inicio">
+                <span itemprop="name">
+                  Inicio
+                </span>
+              </a>
+            </li>
+            <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="">
+              <a href="https://www.elempleo.com/co/ofertas-empleo/" itemprop="" title="Empleos">
+                <span itemprop="name">
+                  Empleos
+                </span>
+              </a>
+            </li>
+            <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="breadcrumbs-3">
+              <a href="https://www.elempleo.com/co/ofertas-empleo/?query=Contador" itemprop="" title="Contador">
+                <span itemprop="name">
+                  Contador
+                </span>
+              </a>
+            </li>
+            <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="breadcrumbs-3">
+              <a href="https://www.elempleo.com/co/ofertas-empleo/?query=Contador" itemprop="" title="">
+                <span itemprop="name">
+                  
+                </span>
+              </a>
+            </li>
+            <li class="active breadcrumbs-3" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+              <span itemprop="name">
+                Bogotá
+              </span>
+            </li>
+    </ol>
+  </div>
+</div>
+  
+
+  
+
+
+  <div class="container notifications  js-notifications"></div>
+
+  
+  
+
+
+
+
+
+
+
+
+
+<div class="modal fade js-filters-modal" id="modal-filter" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button class="close" data-dismiss="modal" type="button" aria-label="Close">
+          <i class="fa fa-times-circle"></i>
+        </button>
+        <h3 class="modal-title">
+          Filtros de búsqueda
+        </h3>
+      </div>
+
+      <div class="modal-body">
+        
+        <div class="form-group">
+          <label class="control-label" for="SalaryInfo2">
+            Salario (en millones de pesos)
+          </label>
+
+          <select class="form-control js-filter-salary" id="SalaryInfo2" name="SalaryInfo2"><option value="0">Todos los salarios</option><option value="2">Menos de $1</option><option value="3">$1 a $1,5</option><option value="4">$1,5 a $2</option><option value="5">$2 a $2,5</option><option value="6">$2,5 a $3</option><option value="7">$3 a $3,5</option><option value="8">$3,5 a $4</option><option value="9">$4 a $4,5</option><option value="10">$4,5 a $5,5</option><option value="23">$5,5 a $6</option><option value="27">$6 a $8</option><option value="28">$8 a $10</option><option value="29">$10 a $12,5</option><option value="30">$12,5 a $15</option><option value="33">Más de $21</option></select>
+        </div>
+
+        
+        <div class="form-group searchCity-wrapper ">
+          <label class="control-label" for="CityInfo2">
+            Ciudad
+          </label>
+
+          <span class="twitter-typeahead" style="position: relative; display: inline-block;"><input class="form-control js-filter-cities tt-hint" type="text" readonly="" autocomplete="off" spellcheck="false" tabindex="-1" dir="ltr" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; opacity: 1; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);" /><input class="form-control js-filter-cities tt-input" id="cityInfo2" type="text" placeholder="Escribe una ciudad" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent;" /><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: Ubuntu, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;">Bogotá</pre><div class="tt-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none;"><div class="tt-dataset tt-dataset-search"><div class="tt-suggestion tt-selectable"><strong class="tt-highlight">Bogotá</strong></div><div class="tt-suggestion tt-selectable"><strong class="tt-highlight">Bogotá</strong> alrededores</div></div></div></span>
+        </div>
+
+        
+        <div class="form-group">
+          <label class="control-label" for="PublishDateInfo2">
+            Fecha de publicación
+          </label>
+
+          <select class="form-control js-filter-date-published" id="PublishDateInfo2" name="PublishDateInfo2"><option value="1">Hoy y ayer</option><option value="2">Hace 1 semana</option><option value="3">Hace 2 semanas</option><option value="4">Hace 1 mes</option><option value="6">Hace más de 1 mes</option></select>
+        </div>
+
+        
+        <div class="form-group">
+          <label class="control-label" for="AreaInfo2">
+            Área de trabajo
+          </label>
+
+          <select class="form-control js-filter-sector" id="AreaInfo2" name="AreaInfo2"><option value="0">Todas las áreas</option><option value="2">Administrativa y Financiera</option><option value="48">Archivo y Documentación</option><option value="4">Auditoría, Contraloría e Interventoría</option><option value="5">Comercial, Ventas y Telemercadeo</option><option value="6">Comercio Exterior</option><option value="53">Compras e Inventarios</option><option value="42">Logística y Distribución</option><option value="19">Mercadeo y Publicidad</option><option value="30">Operaciones y Procesos</option><option value="20">Recepción</option><option value="21">Recursos Humanos y Admón. de Personal</option><option value="22">Salud</option><option value="23">Secretariado</option><option value="25">Servicio al Cliente</option></select>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="modal-quick-view" tabindex="-1" role="dialog">
+  <div class="modal-dialog md-modal js-quickview-content">
+  </div>
+</div>
+
+<div class="container">
+
+
+  
+
+  
+
+  
+
+        <div class="visible-xs advrs-top-wrapper banner300x55 js-advertising" id="sas_21675" data-site-id="58863" data-page-id="748074" data-format-id="21675" data-target="">
+        </div>
+
+
+
+        <div class="page-header">
+        <h1 class="h4 js-result-h1" style="float: none; position: static;">Empleos Contador en Bogotá</h1>
+      </div>
+      <div class="ee-filters clearfix">
+        
+        <div class="results-data-wrapper">
+          <h2 class="indexes-pagination ee-mod">
+            <span class="results-data js-results-data">
+              <strong class="js-start-index">1</strong> a <strong class="js-end-index">20</strong> de <strong class="js-total-results">296</strong> ofertas
+            </span>
+            <span class="results-data js-results-one-data" style="display: none;">
+              <strong class="js-start-index">1</strong> a <strong class="js-end-index">20</strong> de <strong class="js-total-results">296</strong> oferta
+            </span>
+          </h2>
+        </div>
+
+        
+        <div class="btn-filters-wrapper pull-right">
+          <button class="btn btn-secondary btn-block visible-xs" type="button" data-toggle="modal" data-target="#modal-filter">
+            <i class="fa fa-filter"></i>
+            Filtrar
+          </button>
+        </div>
+
+        
+        
+        <div class="form-inline pull-right hidden wrap-fltr-order js-wrap-fltr-order" style="display: block;">
+          <div class="form-group">
+            <label for="orderFilter" class="ee-mod">
+              Ordenar por
+            </label>
+
+            <select class="form-control js-filter-order" id="orderFilter" name="orderFilter">
+
+                <optgroup label="Salario">
+                  <option value="SalaryInfo_Desc">
+                    Mayor a menor
+                  </option>
+                  <option value="SalaryInfo_Asc">
+                    Menor a mayor
+                  </option>
+                </optgroup><optgroup label="Fecha de publicación">
+                  <option value="PublishDate_Desc" selected="">
+                    Más reciente
+                  </option>
+                  <option value="PublishDate_Asc">
+                    Más antigua
+                  </option>
+            </optgroup></select>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        
+        <div class="col-xs-12 col-sm-7 col-sm-push-5 col-md-8 col-md-push-4">
+
+          
+
+        <div class="visible-lg ee-advertising-768x90 banner728x90 text-center js-advertising" id="sas_8931" data-site-id="22173" data-page-id="652649" data-format-id="8931" data-target="" data-tape="true"><div class="ee-ad-tape">Publicidad</div><script id="sas_script1" type="text/javascript" src="//ads.eltiempo.co/ac?nwid=484&amp;siteid=22173&amp;pgid=652649&amp;fmtid=8931&amp;async=1&amp;visit=m&amp;tmstp=3609093809&amp;tag=sas_8931&amp;sh=768&amp;sw=1366&amp;pgDomain=https%3A%2F%2Fwww.elempleo.com%2Fco%2Fofertas-empleo%2Fbogota&amp;noadcbk=sas.noad" async=""></script><div style="display: none;"></div><iframe src="about:blank" width="728" height="90" frameborder="0" allow="autoplay;fullscreen;" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+        <noscript>
+    &lt;a href="//ads.eltiempo.co/ac?jump=1&amp;nwid=484&amp;siteid=22173&amp;pgname=resultados_busqueda&amp;fmtid=8931&amp;visit=m&amp;tmstp=[timestamp]&amp;out=nonrich" target="_blank"&gt;
+        &lt;img src="//ads.eltiempo.co/ac?out=nonrich&amp;nwid=484&amp;siteid=22173&amp;pgname=resultados_busqueda&amp;fmtid=8931&amp;visit=m&amp;tmstp=[timestamp]" border="0" alt="" /&gt;
+    &lt;/a&gt;
+</noscript>
+
+
+          <div class="js-viewerrorhandler"></div>
+
+          <div class="result-list js-result-list js-results-container">
+    <div class="result-item">
+      <div class="js-area-bind area-bind" data-url="https://www.elempleo.com/co/ofertas-trabajo/asistente-de-auditoriacontaduria/1883873687">
+        <img class="hidden-xs img-responsive result-image" src="https://www.elempleo.com/colombia/Files/Companies/Logos/1753.gif" alt="Ofertas de empleo en KPMG." title="KPMG" width="130" height="60" />
+
+        <ul class="list-unstyled result-info">
+          <li>
+            <h2 class="h4 item-title ee-mod">
+              <a class="text-ellipsis" href="https://www.elempleo.com/co/ofertas-trabajo/asistente-de-auditoriacontaduria/1883873687" title="Asistente de auditoria/contaduría ">
+                Asistente de auditoria/contaduría 
+              </a>
+            </h2>
+            <span class="hide">
+              COP
+            </span>
+          </li>
+
+          <li>
+            <h3 class="company-name-text ee-mod">
+              <span class="hide">
+                industry
+              </span>
+              <span>
+                <span class="info-company-name">
+                  KPMG
+                </span>
+              </span>
+            </h3>
+          </li>
+
+          <li>
+            <span class="text-primary info-salary" data-ws="true">
+              $1 a $1,5 millones
+            </span>
+            
+            <span>
+              <span>
+                <span class="info-city">
+                  <i class="fa fa-map-marker icon"></i>
+                  Medellín y ...
+                </span>
+                <span class="hide">
+                  country
+                </span>
+              </span>
+            </span>
+
+            <span class="info-publish-date pull-right">
+              <i class="fa fa-clock-o icon"></i>
+              Publicado 4 Mar 2019
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="wrapper-btn-item hidden-xs">
+        <button class="btn btn-ghost-reverse btn-block js-quickview" data-toggle="modal" data-joboffer="1883873687" type="button">
+          <i class="fa fa-eye"></i>
+          Vista rápida
+        </button>
+      </div>
+    </div>
+    <div class="result-item">
+      <div class="js-area-bind area-bind" data-url="https://www.elempleo.com/co/ofertas-trabajo/auxiliar-contable/1883832526">
+        <img class="hidden-xs img-responsive result-image" src="https://www.elempleo.com/colombia/Files/Companies/Logos/logo_pordefecto.gif" alt="Ofertas de empleo en MOLINOS CAPRI." title="MOLINOS CAPRI" width="130" height="60" />
+
+        <ul class="list-unstyled result-info">
+          <li>
+            <h2 class="h4 item-title ee-mod">
+              <a class="text-ellipsis" href="https://www.elempleo.com/co/ofertas-trabajo/auxiliar-contable/1883832526" title="Auxiliar contable">
+                Auxiliar contable
+              </a>
+            </h2>
+            <span class="hide">
+              COP
+            </span>
+          </li>
+
+          <li>
+            <h3 class="company-name-text ee-mod">
+              <span class="hide">
+                industry
+              </span>
+              <span>
+                <span class="info-company-name">
+                  MOLINOS CAPRI
+                </span>
+              </span>
+            </h3>
+          </li>
+
+          <li>
+            <span class="text-primary info-salary" data-ws="true">
+              $1 a $1,5 millones
+            </span>
+            
+            <span>
+              <span>
+                <span class="info-city">
+                  <i class="fa fa-map-marker icon"></i>
+                  Bogotá
+                </span>
+                <span class="hide">
+                  country
+                </span>
+              </span>
+            </span>
+
+            <span class="info-publish-date pull-right">
+              <i class="fa fa-clock-o icon"></i>
+              Publicado 4 Mar 2019
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="wrapper-btn-item hidden-xs">
+        <button class="btn btn-ghost-reverse btn-block js-quickview" data-toggle="modal" data-joboffer="1883832526" type="button">
+          <i class="fa fa-eye"></i>
+          Vista rápida
+        </button>
+      </div>
+    </div>
+    <div class="result-item">
+      <div class="js-area-bind area-bind" data-url="https://www.elempleo.com/co/ofertas-trabajo/convocatoria-asesores-de-call-center-area-de-retencion-yo-fidelizacion/1883899422">
+        <img class="hidden-xs img-responsive result-image" src="https://www.elempleo.com/colombia/Files/Companies/Logos/logo_pordefecto.gif" alt="Ofertas de empleo en Confidencial." title="Confidencial" width="130" height="60" />
+
+        <ul class="list-unstyled result-info">
+          <li>
+            <h2 class="h4 item-title ee-mod">
+              <a class="text-ellipsis" href="https://www.elempleo.com/co/ofertas-trabajo/convocatoria-asesores-de-call-center-area-de-retencion-yo-fidelizacion/1883899422" title="Convocatoria asesores de call center área de retención y/o fidelización">
+                Convocatoria asesores de call center área de retención y/o fidelización
+              </a>
+            </h2>
+            <span class="hide">
+              COP
+            </span>
+          </li>
+
+          <li>
+            <h3 class="company-name-text ee-mod">
+              <span class="hide">
+                industry
+              </span>
+              <span>
+                <span class="info-company-name">
+                  Empresa confidencial
+                </span>
+              </span>
+            </h3>
+          </li>
+
+          <li>
+            <span class="text-primary info-salary" data-ws="true">
+              $1 a $1,5 millones
+            </span>
+            
+            <span>
+              <span>
+                <span class="info-city">
+                  <i class="fa fa-map-marker icon"></i>
+                  Bogotá y ...
+                </span>
+                <span class="hide">
+                  country
+                </span>
+              </span>
+            </span>
+
+            <span class="info-publish-date pull-right">
+              <i class="fa fa-clock-o icon"></i>
+              Publicado 4 Mar 2019
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="wrapper-btn-item hidden-xs">
+        <button class="btn btn-ghost-reverse btn-block js-quickview" data-toggle="modal" data-joboffer="1883899422" type="button">
+          <i class="fa fa-eye"></i>
+          Vista rápida
+        </button>
+      </div>
+    </div>
+    <div class="result-item">
+      <div class="js-area-bind area-bind" data-url="https://www.elempleo.com/co/ofertas-trabajo/asistente-administrativa/1883899237">
+        <img class="hidden-xs img-responsive result-image" src="https://www.elempleo.com/colombia/Files/Companies/Logos/2638.gif" alt="Ofertas de empleo en ADECCO COLOMBIA S A." title="ADECCO COLOMBIA S A" width="130" height="60" />
+
+        <ul class="list-unstyled result-info">
+          <li>
+            <h2 class="h4 item-title ee-mod">
+              <a class="text-ellipsis" href="https://www.elempleo.com/co/ofertas-trabajo/asistente-administrativa/1883899237" title="Asistente administrativa">
+                Asistente administrativa
+              </a>
+            </h2>
+            <span class="hide">
+              COP
+            </span>
+          </li>
+
+          <li>
+            <h3 class="company-name-text ee-mod">
+              <span class="hide">
+                industry
+              </span>
+              <span>
+                <span class="info-company-name">
+                  ADECCO COLOMBIA S A
+                </span>
+              </span>
+            </h3>
+          </li>
+
+          <li>
+            <span class="text-primary info-salary" data-ws="true">
+              $1 a $1,5 millones
+            </span>
+            
+            <span>
+              <span>
+                <span class="info-city">
+                  <i class="fa fa-map-marker icon"></i>
+                  Bogotá y ...
+                </span>
+                <span class="hide">
+                  country
+                </span>
+              </span>
+            </span>
+
+            <span class="info-publish-date pull-right">
+              <i class="fa fa-clock-o icon"></i>
+              Publicado 4 Mar 2019
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="wrapper-btn-item hidden-xs">
+        <button class="btn btn-ghost-reverse btn-block js-quickview" data-toggle="modal" data-joboffer="1883899237" type="button">
+          <i class="fa fa-eye"></i>
+          Vista rápida
+        </button>
+      </div>
+    </div>
+    <div class="result-item">
+      <div class="js-area-bind area-bind" data-url="https://www.elempleo.com/co/ofertas-trabajo/analista-de-cartera-bogota-dc/1883899161">
+        <img class="hidden-xs img-responsive result-image" src="https://www.elempleo.com/colombia/Files/Companies/Logos/logo_pordefecto.gif" alt="Ofertas de empleo en Confidencial." title="Confidencial" width="130" height="60" />
+
+        <ul class="list-unstyled result-info">
+          <li>
+            <h2 class="h4 item-title ee-mod">
+              <a class="text-ellipsis" href="https://www.elempleo.com/co/ofertas-trabajo/analista-de-cartera-bogota-dc/1883899161" title="Analista de cartera - bogotá d.c">
+                Analista de cartera - bogotá d.c
+              </a>
+            </h2>
+            <span class="hide">
+              COP
+            </span>
+          </li>
+
+          <li>
+            <h3 class="company-name-text ee-mod">
+              <span class="hide">
+                industry
+              </span>
+              <span>
+                <span class="info-company-name">
+                  Empresa confidencial
+                </span>
+              </span>
+            </h3>
+          </li>
+
+          <li>
+            <span class="text-primary info-salary" data-ws="true">
+              $1 a $1,5 millones
+            </span>
+            
+            <span>
+              <span>
+                <span class="info-city">
+                  <i class="fa fa-map-marker icon"></i>
+                  Bogotá
+                </span>
+                <span class="hide">
+                  country
+                </span>
+              </span>
+            </span>
+
+            <span class="info-publish-date pull-right">
+              <i class="fa fa-clock-o icon"></i>
+              Publicado 4 Mar 2019
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="wrapper-btn-item hidden-xs">
+        <button class="btn btn-ghost-reverse btn-block js-quickview" data-toggle="modal" data-joboffer="1883899161" type="button">
+          <i class="fa fa-eye"></i>
+          Vista rápida
+        </button>
+      </div>
+    </div>
+    <div class="result-item">
+      <div class="js-area-bind area-bind" data-url="https://www.elempleo.com/co/ofertas-trabajo/auxiliar-administrativo/1883899159">
+        <img class="hidden-xs img-responsive result-image" src="https://www.elempleo.com/colombia/Files/Companies/Logos/48161.gif" alt="Ofertas de empleo en TEMPOLINK SAS." title="TEMPOLINK SAS" width="130" height="60" />
+
+        <ul class="list-unstyled result-info">
+          <li>
+            <h2 class="h4 item-title ee-mod">
+              <a class="text-ellipsis" href="https://www.elempleo.com/co/ofertas-trabajo/auxiliar-administrativo/1883899159" title="Auxiliar administrativo">
+                Auxiliar administrativo
+              </a>
+            </h2>
+            <span class="hide">
+              COP
+            </span>
+          </li>
+
+          <li>
+            <h3 class="company-name-text ee-mod">
+              <span class="hide">
+                industry
+              </span>
+              <span>
+                <span class="info-company-name">
+                  TEMPOLINK SAS
+                </span>
+              </span>
+            </h3>
+          </li>
+
+          <li>
+            <span class="text-primary info-salary" data-ws="true">
+              $1 a $1,5 millones
+            </span>
+            
+            <span>
+              <span>
+                <span class="info-city">
+                  <i class="fa fa-map-marker icon"></i>
+                  Bogotá
+                </span>
+                <span class="hide">
+                  country
+                </span>
+              </span>
+            </span>
+
+            <span class="info-publish-date pull-right">
+              <i class="fa fa-clock-o icon"></i>
+              Publicado 4 Mar 2019
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="wrapper-btn-item hidden-xs">
+        <button class="btn btn-ghost-reverse btn-block js-quickview" data-toggle="modal" data-joboffer="1883899159" type="button">
+          <i class="fa fa-eye"></i>
+          Vista rápida
+        </button>
+      </div>
+    </div>
+    <div class="result-item">
+      <div class="js-area-bind area-bind" data-url="https://www.elempleo.com/co/ofertas-trabajo/analista-gestion-de-cartera-temporal/1883899116">
+        <img class="hidden-xs img-responsive result-image" src="https://www.elempleo.com/colombia/Files/Companies/Logos/logo_pordefecto.gif" alt="Ofertas de empleo en Chubb Seguros Colombia S.A.." title="Chubb Seguros Colombia S.A." width="130" height="60" />
+
+        <ul class="list-unstyled result-info">
+          <li>
+            <h2 class="h4 item-title ee-mod">
+              <a class="text-ellipsis" href="https://www.elempleo.com/co/ofertas-trabajo/analista-gestion-de-cartera-temporal/1883899116" title="Analista gestión de cartera - temporal ">
+                Analista gestión de cartera - temporal 
+              </a>
+            </h2>
+            <span class="hide">
+              COP
+            </span>
+          </li>
+
+          <li>
+            <h3 class="company-name-text ee-mod">
+              <span class="hide">
+                industry
+              </span>
+              <span>
+                <span class="info-company-name">
+                  Chubb Seguros Colombia S.A.
+                </span>
+              </span>
+            </h3>
+          </li>
+
+          <li>
+            <span class="text-primary info-salary" data-ws="true">
+              $1 a $1,5 millones
+            </span>
+            
+            <span>
+              <span>
+                <span class="info-city">
+                  <i class="fa fa-map-marker icon"></i>
+                  Bogotá y ...
+                </span>
+                <span class="hide">
+                  country
+                </span>
+              </span>
+            </span>
+
+            <span class="info-publish-date pull-right">
+              <i class="fa fa-clock-o icon"></i>
+              Publicado 4 Mar 2019
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="wrapper-btn-item hidden-xs">
+        <button class="btn btn-ghost-reverse btn-block js-quickview" data-toggle="modal" data-joboffer="1883899116" type="button">
+          <i class="fa fa-eye"></i>
+          Vista rápida
+        </button>
+      </div>
+    </div>
+    <div class="result-item">
+      <div class="js-area-bind area-bind" data-url="https://www.elempleo.com/co/ofertas-trabajo/asistente-contable-bogota/1883883549">
+        <img class="hidden-xs img-responsive result-image" src="https://www.elempleo.com/colombia/Files/Companies/Logos/logo_pordefecto.gif" alt="Ofertas de empleo en Confidencial." title="Confidencial" width="130" height="60" />
+
+        <ul class="list-unstyled result-info">
+          <li>
+            <h2 class="h4 item-title ee-mod">
+              <a class="text-ellipsis" href="https://www.elempleo.com/co/ofertas-trabajo/asistente-contable-bogota/1883883549" title="Asistente contable bogotá ">
+                Asistente contable bogotá 
+              </a>
+            </h2>
+            <span class="hide">
+              COP
+            </span>
+          </li>
+
+          <li>
+            <h3 class="company-name-text ee-mod">
+              <span class="hide">
+                industry
+              </span>
+              <span>
+                <span class="info-company-name">
+                  Empresa confidencial
+                </span>
+              </span>
+            </h3>
+          </li>
+
+          <li>
+            <span class="text-primary info-salary" data-ws="true">
+              $1 a $1,5 millones
+            </span>
+            
+            <span>
+              <span>
+                <span class="info-city">
+                  <i class="fa fa-map-marker icon"></i>
+                  Bogotá
+                </span>
+                <span class="hide">
+                  country
+                </span>
+              </span>
+            </span>
+
+            <span class="info-publish-date pull-right">
+              <i class="fa fa-clock-o icon"></i>
+              Publicado 4 Mar 2019
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="wrapper-btn-item hidden-xs">
+        <button class="btn btn-ghost-reverse btn-block js-quickview" data-toggle="modal" data-joboffer="1883883549" type="button">
+          <i class="fa fa-eye"></i>
+          Vista rápida
+        </button>
+      </div>
+    </div>
+    <div class="result-item">
+      <div class="js-area-bind area-bind" data-url="https://www.elempleo.com/co/ofertas-trabajo/auxiliar-contable/1883890911">
+        <img class="hidden-xs img-responsive result-image" src="https://www.elempleo.com/colombia/Files/Companies/Logos/logo_pordefecto.gif" alt="Ofertas de empleo en Confidencial." title="Confidencial" width="130" height="60" />
+
+        <ul class="list-unstyled result-info">
+          <li>
+            <h2 class="h4 item-title ee-mod">
+              <a class="text-ellipsis" href="https://www.elempleo.com/co/ofertas-trabajo/auxiliar-contable/1883890911" title="Auxiliar contable ">
+                Auxiliar contable 
+              </a>
+            </h2>
+            <span class="hide">
+              COP
+            </span>
+          </li>
+
+          <li>
+            <h3 class="company-name-text ee-mod">
+              <span class="hide">
+                industry
+              </span>
+              <span>
+                <span class="info-company-name">
+                  Empresa confidencial
+                </span>
+              </span>
+            </h3>
+          </li>
+
+          <li>
+            <span class="text-primary info-salary" data-ws="true">
+              $1 a $1,5 millones
+            </span>
+            
+            <span>
+              <span>
+                <span class="info-city">
+                  <i class="fa fa-map-marker icon"></i>
+                  Bogotá
+                </span>
+                <span class="hide">
+                  country
+                </span>
+              </span>
+            </span>
+
+            <span class="info-publish-date pull-right">
+              <i class="fa fa-clock-o icon"></i>
+              Publicado 4 Mar 2019
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="wrapper-btn-item hidden-xs">
+        <button class="btn btn-ghost-reverse btn-block js-quickview" data-toggle="modal" data-joboffer="1883890911" type="button">
+          <i class="fa fa-eye"></i>
+          Vista rápida
+        </button>
+      </div>
+    </div>
+    <div class="result-item">
+      <div class="js-area-bind area-bind" data-url="https://www.elempleo.com/co/ofertas-trabajo/analista-contable/1883898920">
+        <img class="hidden-xs img-responsive result-image" src="https://www.elempleo.com/colombia/Files/Companies/Logos/logo_pordefecto.gif" alt="Ofertas de empleo en ASISTALENTO SAS." title="ASISTALENTO SAS" width="130" height="60" />
+
+        <ul class="list-unstyled result-info">
+          <li>
+            <h2 class="h4 item-title ee-mod">
+              <a class="text-ellipsis" href="https://www.elempleo.com/co/ofertas-trabajo/analista-contable/1883898920" title="Analista contable ">
+                Analista contable 
+              </a>
+            </h2>
+            <span class="hide">
+              COP
+            </span>
+          </li>
+
+          <li>
+            <h3 class="company-name-text ee-mod">
+              <span class="hide">
+                industry
+              </span>
+              <span>
+                <span class="info-company-name">
+                  ASISTALENTO SAS
+                </span>
+              </span>
+            </h3>
+          </li>
+
+          <li>
+            <span class="text-primary info-salary" data-ws="true">
+              $1 a $1,5 millones
+            </span>
+            
+            <span>
+              <span>
+                <span class="info-city">
+                  <i class="fa fa-map-marker icon"></i>
+                  Bogotá
+                </span>
+                <span class="hide">
+                  country
+                </span>
+              </span>
+            </span>
+
+            <span class="info-publish-date pull-right">
+              <i class="fa fa-clock-o icon"></i>
+              Publicado 4 Mar 2019
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="wrapper-btn-item hidden-xs">
+        <button class="btn btn-ghost-reverse btn-block js-quickview" data-toggle="modal" data-joboffer="1883898920" type="button">
+          <i class="fa fa-eye"></i>
+          Vista rápida
+        </button>
+      </div>
+    </div>
+    <div class="result-item">
+      <div class="js-area-bind area-bind" data-url="https://www.elempleo.com/co/ofertas-trabajo/asistente/1883898378">
+        <img class="hidden-xs img-responsive result-image" src="https://www.elempleo.com/colombia/Files/Companies/Logos/logo_pordefecto.gif" alt="Ofertas de empleo en Confidencial." title="Confidencial" width="130" height="60" />
+
+        <ul class="list-unstyled result-info">
+          <li>
+            <h2 class="h4 item-title ee-mod">
+              <a class="text-ellipsis" href="https://www.elempleo.com/co/ofertas-trabajo/asistente/1883898378" title="Asistente ">
+                Asistente 
+              </a>
+            </h2>
+            <span class="hide">
+              COP
+            </span>
+          </li>
+
+          <li>
+            <h3 class="company-name-text ee-mod">
+              <span class="hide">
+                industry
+              </span>
+              <span>
+                <span class="info-company-name">
+                  Empresa confidencial
+                </span>
+              </span>
+            </h3>
+          </li>
+
+          <li>
+            <span class="text-primary info-salary" data-ws="true">
+              $1 a $1,5 millones
+            </span>
+            
+            <span>
+              <span>
+                <span class="info-city">
+                  <i class="fa fa-map-marker icon"></i>
+                  Bogotá
+                </span>
+                <span class="hide">
+                  country
+                </span>
+              </span>
+            </span>
+
+            <span class="info-publish-date pull-right">
+              <i class="fa fa-clock-o icon"></i>
+              Publicado 4 Mar 2019
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="wrapper-btn-item hidden-xs">
+        <button class="btn btn-ghost-reverse btn-block js-quickview" data-toggle="modal" data-joboffer="1883898378" type="button">
+          <i class="fa fa-eye"></i>
+          Vista rápida
+        </button>
+      </div>
+    </div>
+    <div class="result-item">
+      <div class="js-area-bind area-bind" data-url="https://www.elempleo.com/co/ofertas-trabajo/auxiliar-contable/1883898373">
+        <img class="hidden-xs img-responsive result-image" src="https://www.elempleo.com/colombia/Files/Companies/Logos/logo_pordefecto.gif" alt="Ofertas de empleo en Confidencial." title="Confidencial" width="130" height="60" />
+
+        <ul class="list-unstyled result-info">
+          <li>
+            <h2 class="h4 item-title ee-mod">
+              <a class="text-ellipsis" href="https://www.elempleo.com/co/ofertas-trabajo/auxiliar-contable/1883898373" title="Auxiliar contable ">
+                Auxiliar contable 
+              </a>
+            </h2>
+            <span class="hide">
+              COP
+            </span>
+          </li>
+
+          <li>
+            <h3 class="company-name-text ee-mod">
+              <span class="hide">
+                industry
+              </span>
+              <span>
+                <span class="info-company-name">
+                  Empresa confidencial
+                </span>
+              </span>
+            </h3>
+          </li>
+
+          <li>
+            <span class="text-primary info-salary" data-ws="true">
+              $1 a $1,5 millones
+            </span>
+            
+            <span>
+              <span>
+                <span class="info-city">
+                  <i class="fa fa-map-marker icon"></i>
+                  Bogotá
+                </span>
+                <span class="hide">
+                  country
+                </span>
+              </span>
+            </span>
+
+            <span class="info-publish-date pull-right">
+              <i class="fa fa-clock-o icon"></i>
+              Publicado 4 Mar 2019
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="wrapper-btn-item hidden-xs">
+        <button class="btn btn-ghost-reverse btn-block js-quickview" data-toggle="modal" data-joboffer="1883898373" type="button">
+          <i class="fa fa-eye"></i>
+          Vista rápida
+        </button>
+      </div>
+    </div>
+    <div class="result-item">
+      <div class="js-area-bind area-bind" data-url="https://www.elempleo.com/co/ofertas-trabajo/asistente-contable-propiedad-horizontal/1883898323">
+        <img class="hidden-xs img-responsive result-image" src="https://www.elempleo.com/colombia/Files/Companies/Logos/logo_pordefecto.gif" alt="Ofertas de empleo en Confidencial." title="Confidencial" width="130" height="60" />
+
+        <ul class="list-unstyled result-info">
+          <li>
+            <h2 class="h4 item-title ee-mod">
+              <a class="text-ellipsis" href="https://www.elempleo.com/co/ofertas-trabajo/asistente-contable-propiedad-horizontal/1883898323" title="Asistente contable - propiedad horizontal">
+                Asistente contable - propiedad horizontal
+              </a>
+            </h2>
+            <span class="hide">
+              COP
+            </span>
+          </li>
+
+          <li>
+            <h3 class="company-name-text ee-mod">
+              <span class="hide">
+                industry
+              </span>
+              <span>
+                <span class="info-company-name">
+                  Empresa confidencial
+                </span>
+              </span>
+            </h3>
+          </li>
+
+          <li>
+            <span class="text-primary info-salary" data-ws="true">
+              $1 a $1,5 millones
+            </span>
+            
+            <span>
+              <span>
+                <span class="info-city">
+                  <i class="fa fa-map-marker icon"></i>
+                  Bogotá
+                </span>
+                <span class="hide">
+                  country
+                </span>
+              </span>
+            </span>
+
+            <span class="info-publish-date pull-right">
+              <i class="fa fa-clock-o icon"></i>
+              Publicado 4 Mar 2019
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="wrapper-btn-item hidden-xs">
+        <button class="btn btn-ghost-reverse btn-block js-quickview" data-toggle="modal" data-joboffer="1883898323" type="button">
+          <i class="fa fa-eye"></i>
+          Vista rápida
+        </button>
+      </div>
+    </div>
+    <div class="result-item">
+      <div class="js-area-bind area-bind" data-url="https://www.elempleo.com/co/ofertas-trabajo/auxiliar-contable-con-manejo-de-helisa/1883898213">
+        <img class="hidden-xs img-responsive result-image" src="https://www.elempleo.com/colombia/Files/Companies/Logos/2638.gif" alt="Ofertas de empleo en ADECCO COLOMBIA S A." title="ADECCO COLOMBIA S A" width="130" height="60" />
+
+        <ul class="list-unstyled result-info">
+          <li>
+            <h2 class="h4 item-title ee-mod">
+              <a class="text-ellipsis" href="https://www.elempleo.com/co/ofertas-trabajo/auxiliar-contable-con-manejo-de-helisa/1883898213" title="Auxiliar contable con manejo de helisa">
+                Auxiliar contable con manejo de helisa
+              </a>
+            </h2>
+            <span class="hide">
+              COP
+            </span>
+          </li>
+
+          <li>
+            <h3 class="company-name-text ee-mod">
+              <span class="hide">
+                industry
+              </span>
+              <span>
+                <span class="info-company-name">
+                  ADECCO COLOMBIA S A
+                </span>
+              </span>
+            </h3>
+          </li>
+
+          <li>
+            <span class="text-primary info-salary" data-ws="true">
+              $1 a $1,5 millones
+            </span>
+            
+            <span>
+              <span>
+                <span class="info-city">
+                  <i class="fa fa-map-marker icon"></i>
+                  Bogotá
+                </span>
+                <span class="hide">
+                  country
+                </span>
+              </span>
+            </span>
+
+            <span class="info-publish-date pull-right">
+              <i class="fa fa-clock-o icon"></i>
+              Publicado 4 Mar 2019
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="wrapper-btn-item hidden-xs">
+        <button class="btn btn-ghost-reverse btn-block js-quickview" data-toggle="modal" data-joboffer="1883898213" type="button">
+          <i class="fa fa-eye"></i>
+          Vista rápida
+        </button>
+      </div>
+    </div>
+    <div class="result-item">
+      <div class="js-area-bind area-bind" data-url="https://www.elempleo.com/co/ofertas-trabajo/auxiliar-contable-recien-graduad/1883898074">
+        <img class="hidden-xs img-responsive result-image" src="https://www.elempleo.com/colombia/Files/Companies/Logos/logo_pordefecto.gif" alt="Ofertas de empleo en Confidencial." title="Confidencial" width="130" height="60" />
+
+        <ul class="list-unstyled result-info">
+          <li>
+            <h2 class="h4 item-title ee-mod">
+              <a class="text-ellipsis" href="https://www.elempleo.com/co/ofertas-trabajo/auxiliar-contable-recien-graduad/1883898074" title="Auxiliar contable  recien graduad. ">
+                Auxiliar contable  recien graduad. 
+              </a>
+            </h2>
+            <span class="hide">
+              COP
+            </span>
+          </li>
+
+          <li>
+            <h3 class="company-name-text ee-mod">
+              <span class="hide">
+                industry
+              </span>
+              <span>
+                <span class="info-company-name">
+                  Empresa confidencial
+                </span>
+              </span>
+            </h3>
+          </li>
+
+          <li>
+            <span class="text-primary info-salary" data-ws="true">
+              $1 a $1,5 millones
+            </span>
+            
+            <span>
+              <span>
+                <span class="info-city">
+                  <i class="fa fa-map-marker icon"></i>
+                  Bogotá
+                </span>
+                <span class="hide">
+                  country
+                </span>
+              </span>
+            </span>
+
+            <span class="info-publish-date pull-right">
+              <i class="fa fa-clock-o icon"></i>
+              Publicado 4 Mar 2019
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="wrapper-btn-item hidden-xs">
+        <button class="btn btn-ghost-reverse btn-block js-quickview" data-toggle="modal" data-joboffer="1883898074" type="button">
+          <i class="fa fa-eye"></i>
+          Vista rápida
+        </button>
+      </div>
+    </div>
+    <div class="result-item">
+      <div class="js-area-bind area-bind" data-url="https://www.elempleo.com/co/ofertas-trabajo/analista-financiero-de-facturacion/1883898043">
+        <img class="hidden-xs img-responsive result-image" src="https://www.elempleo.com/colombia/Files/Companies/Logos/2638.gif" alt="Ofertas de empleo en ADECCO COLOMBIA S A." title="ADECCO COLOMBIA S A" width="130" height="60" />
+
+        <ul class="list-unstyled result-info">
+          <li>
+            <h2 class="h4 item-title ee-mod">
+              <a class="text-ellipsis" href="https://www.elempleo.com/co/ofertas-trabajo/analista-financiero-de-facturacion/1883898043" title="Analista financiero de facturación ">
+                Analista financiero de facturación 
+              </a>
+            </h2>
+            <span class="hide">
+              COP
+            </span>
+          </li>
+
+          <li>
+            <h3 class="company-name-text ee-mod">
+              <span class="hide">
+                industry
+              </span>
+              <span>
+                <span class="info-company-name">
+                  ADECCO COLOMBIA S A
+                </span>
+              </span>
+            </h3>
+          </li>
+
+          <li>
+            <span class="text-primary info-salary" data-ws="true">
+              $1 a $1,5 millones
+            </span>
+            
+            <span>
+              <span>
+                <span class="info-city">
+                  <i class="fa fa-map-marker icon"></i>
+                  Bogotá
+                </span>
+                <span class="hide">
+                  country
+                </span>
+              </span>
+            </span>
+
+            <span class="info-publish-date pull-right">
+              <i class="fa fa-clock-o icon"></i>
+              Publicado 4 Mar 2019
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="wrapper-btn-item hidden-xs">
+        <button class="btn btn-ghost-reverse btn-block js-quickview" data-toggle="modal" data-joboffer="1883898043" type="button">
+          <i class="fa fa-eye"></i>
+          Vista rápida
+        </button>
+      </div>
+    </div>
+    <div class="result-item">
+      <div class="js-area-bind area-bind" data-url="https://www.elempleo.com/co/ofertas-trabajo/analista-financiero-de-cartera/1883898029">
+        <img class="hidden-xs img-responsive result-image" src="https://www.elempleo.com/colombia/Files/Companies/Logos/2638.gif" alt="Ofertas de empleo en ADECCO COLOMBIA S A." title="ADECCO COLOMBIA S A" width="130" height="60" />
+
+        <ul class="list-unstyled result-info">
+          <li>
+            <h2 class="h4 item-title ee-mod">
+              <a class="text-ellipsis" href="https://www.elempleo.com/co/ofertas-trabajo/analista-financiero-de-cartera/1883898029" title="Analista financiero de cartera  ">
+                Analista financiero de cartera  
+              </a>
+            </h2>
+            <span class="hide">
+              COP
+            </span>
+          </li>
+
+          <li>
+            <h3 class="company-name-text ee-mod">
+              <span class="hide">
+                industry
+              </span>
+              <span>
+                <span class="info-company-name">
+                  ADECCO COLOMBIA S A
+                </span>
+              </span>
+            </h3>
+          </li>
+
+          <li>
+            <span class="text-primary info-salary" data-ws="true">
+              $1 a $1,5 millones
+            </span>
+            
+            <span>
+              <span>
+                <span class="info-city">
+                  <i class="fa fa-map-marker icon"></i>
+                  Bogotá
+                </span>
+                <span class="hide">
+                  country
+                </span>
+              </span>
+            </span>
+
+            <span class="info-publish-date pull-right">
+              <i class="fa fa-clock-o icon"></i>
+              Publicado 4 Mar 2019
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="wrapper-btn-item hidden-xs">
+        <button class="btn btn-ghost-reverse btn-block js-quickview" data-toggle="modal" data-joboffer="1883898029" type="button">
+          <i class="fa fa-eye"></i>
+          Vista rápida
+        </button>
+      </div>
+    </div>
+    <div class="result-item">
+      <div class="js-area-bind area-bind" data-url="https://www.elempleo.com/co/ofertas-trabajo/digitador-contable/1883898024">
+        <img class="hidden-xs img-responsive result-image" src="https://www.elempleo.com/colombia/Files/Companies/Logos/2638.gif" alt="Ofertas de empleo en ADECCO COLOMBIA S A." title="ADECCO COLOMBIA S A" width="130" height="60" />
+
+        <ul class="list-unstyled result-info">
+          <li>
+            <h2 class="h4 item-title ee-mod">
+              <a class="text-ellipsis" href="https://www.elempleo.com/co/ofertas-trabajo/digitador-contable/1883898024" title="Digitador contable ">
+                Digitador contable 
+              </a>
+            </h2>
+            <span class="hide">
+              COP
+            </span>
+          </li>
+
+          <li>
+            <h3 class="company-name-text ee-mod">
+              <span class="hide">
+                industry
+              </span>
+              <span>
+                <span class="info-company-name">
+                  ADECCO COLOMBIA S A
+                </span>
+              </span>
+            </h3>
+          </li>
+
+          <li>
+            <span class="text-primary info-salary" data-ws="true">
+              $1 a $1,5 millones
+            </span>
+            
+            <span>
+              <span>
+                <span class="info-city">
+                  <i class="fa fa-map-marker icon"></i>
+                  Bogotá
+                </span>
+                <span class="hide">
+                  country
+                </span>
+              </span>
+            </span>
+
+            <span class="info-publish-date pull-right">
+              <i class="fa fa-clock-o icon"></i>
+              Publicado 4 Mar 2019
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="wrapper-btn-item hidden-xs">
+        <button class="btn btn-ghost-reverse btn-block js-quickview" data-toggle="modal" data-joboffer="1883898024" type="button">
+          <i class="fa fa-eye"></i>
+          Vista rápida
+        </button>
+      </div>
+    </div>
+    <div class="result-item">
+      <div class="js-area-bind area-bind" data-url="https://www.elempleo.com/co/ofertas-trabajo/auxiliar-de-credito-y-cartera-mosquera/1883880389">
+        <img class="hidden-xs img-responsive result-image" src="https://www.elempleo.com/colombia/Files/Companies/Logos/2638.gif" alt="Ofertas de empleo en ADECCO COLOMBIA S A." title="ADECCO COLOMBIA S A" width="130" height="60" />
+
+        <ul class="list-unstyled result-info">
+          <li>
+            <h2 class="h4 item-title ee-mod">
+              <a class="text-ellipsis" href="https://www.elempleo.com/co/ofertas-trabajo/auxiliar-de-credito-y-cartera-mosquera/1883880389" title="Auxiliar de crédito y cartera mosquera">
+                Auxiliar de crédito y cartera mosquera
+              </a>
+            </h2>
+            <span class="hide">
+              COP
+            </span>
+          </li>
+
+          <li>
+            <h3 class="company-name-text ee-mod">
+              <span class="hide">
+                industry
+              </span>
+              <span>
+                <span class="info-company-name">
+                  ADECCO COLOMBIA S A
+                </span>
+              </span>
+            </h3>
+          </li>
+
+          <li>
+            <span class="text-primary info-salary" data-ws="true">
+              $1 a $1,5 millones
+            </span>
+            
+            <span>
+              <span>
+                <span class="info-city">
+                  <i class="fa fa-map-marker icon"></i>
+                  Bogotá
+                </span>
+                <span class="hide">
+                  country
+                </span>
+              </span>
+            </span>
+
+            <span class="info-publish-date pull-right">
+              <i class="fa fa-clock-o icon"></i>
+              Publicado 4 Mar 2019
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="wrapper-btn-item hidden-xs">
+        <button class="btn btn-ghost-reverse btn-block js-quickview" data-toggle="modal" data-joboffer="1883880389" type="button">
+          <i class="fa fa-eye"></i>
+          Vista rápida
+        </button>
+      </div>
+    </div>
+    <div class="result-item">
+      <div class="js-area-bind area-bind" data-url="https://www.elempleo.com/co/ofertas-trabajo/analista-de-cartera/1883897918">
+        <img class="hidden-xs img-responsive result-image" src="https://www.elempleo.com/colombia/Files/Companies/Logos/logo_pordefecto.gif" alt="Ofertas de empleo en Confidencial." title="Confidencial" width="130" height="60" />
+
+        <ul class="list-unstyled result-info">
+          <li>
+            <h2 class="h4 item-title ee-mod">
+              <a class="text-ellipsis" href="https://www.elempleo.com/co/ofertas-trabajo/analista-de-cartera/1883897918" title="Analista de cartera">
+                Analista de cartera
+              </a>
+            </h2>
+            <span class="hide">
+              COP
+            </span>
+          </li>
+
+          <li>
+            <h3 class="company-name-text ee-mod">
+              <span class="hide">
+                industry
+              </span>
+              <span>
+                <span class="info-company-name">
+                  Empresa confidencial
+                </span>
+              </span>
+            </h3>
+          </li>
+
+          <li>
+            <span class="text-primary info-salary" data-ws="true">
+              $1 a $1,5 millones
+            </span>
+            
+            <span>
+              <span>
+                <span class="info-city">
+                  <i class="fa fa-map-marker icon"></i>
+                  Bogotá
+                </span>
+                <span class="hide">
+                  country
+                </span>
+              </span>
+            </span>
+
+            <span class="info-publish-date pull-right">
+              <i class="fa fa-clock-o icon"></i>
+              Publicado 4 Mar 2019
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="wrapper-btn-item hidden-xs">
+        <button class="btn btn-ghost-reverse btn-block js-quickview" data-toggle="modal" data-joboffer="1883897918" type="button">
+          <i class="fa fa-eye"></i>
+          Vista rápida
+        </button>
+      </div>
+    </div>
+</div>
+
+          
+          <div class="js-pagination pagination-wrapper">
+      <button class="btn btn-secondary js-see-more btn-see-more " type="button">
+        Mostrar más resultados
+        <span class="caret"></span>
+      </button>
+
+
+    
+    <div class="clearfix  hidden-xs ">
+      <form class="form-inline pull-left hidden-xs results-by-page ">
+        <div class="form-group">
+          <label for="ResultsByPage" class="ee-mod hidden-sm">
+            Resultados por página
+          </label>
+
+          <select class="form-control js-results-by-page" id="ResultsByPage" name="ResultsByPage">
+            <option value="20" selected="">
+              20
+            </option>
+            <option value="50">
+              50
+            </option>
+            <option value="100">
+              100
+            </option>
+          </select>
+        </div>
+      </form>
+
+      <nav class="pull-right">
+        <span class="visible-lg-inline-block results-data">
+          <strong>
+            1
+          </strong>
+          a
+          <strong>
+            20
+          </strong>
+          de
+          <strong>
+            296
+          </strong>
+          ofertas
+        </span>
+
+        <ul class="pagination ee-mod ">
+          <li class=" disabled ">
+            <a class="js-btn-prev" href="#" aria-label="Previous">
+              <i class="fa fa-angle-left"></i>
+            </a>
+          </li>
+
+          <li class=" active ">
+            <a class="js-page" href="#" data-page="1">
+              1
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="">
+            <a class="js-page" href="#" data-page="2">
+              2
+            </a>
+          </li>
+          <li class="">
+            <a class="js-page" href="#" data-page="3">
+              3
+            </a>
+          </li>
+          <li class="">
+            <a class="js-page" href="#" data-page="4">
+              4
+            </a>
+          </li>
+          <li class="">
+            <a class="js-page" href="#" data-page="5">
+              5
+            </a>
+          </li>
+          <li class="">
+            <a class="js-page" href="#" data-page="6">
+              6
+            </a>
+          </li>
+
+          <li class="">
+            <a class="js-btn-next" href="#" aria-label="Next">
+              <i class="fa fa-angle-right"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+</div>
+        </div>
+
+        <div class="col-xs-12 col-sm-5 col-sm-pull-7 col-md-4 col-md-pull-8">
+
+          
+          <div class="well hidden-xs">
+
+
+<div class="js-filters-bar">
+  
+  <div class="form-group salary-filter ">
+    <h4 class="seo-label-text ee-mod">
+      <label class="control-label">
+        Salario (en millones de pesos)
+        <i class="fa fa-exclamation-circle text-info visible-lg-inline ttip-salary-fltr js-ttip-salary-fltr" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Al no seleccionar ningún salario, ves todas las ofertas, incluidas las de salario confidencial">
+        </i>
+      </label>
+    </h4>
+
+    <div class="checkbox-options ee-mod js-filter-salary"><div class="checkbox"><label for="salary0"><input type="checkbox" id="salary0" name="SalaryInfo1" value="2" />Menos de $1</label><span class="badge pull-right"></span></div><div class="checkbox"><label for="salary1" class="filter-selected-item"><input type="checkbox" id="salary1" name="SalaryInfo1" value="3" />$1 a $1,5</label><span class="badge pull-right filter-selected-item"></span></div><div class="checkbox"><label for="salary2"><input type="checkbox" id="salary2" name="SalaryInfo1" value="4" />$1,5 a $2</label><span class="badge pull-right"></span></div><div class="checkbox"><label for="salary3"><input type="checkbox" id="salary3" name="SalaryInfo1" value="5" />$2 a $2,5</label><span class="badge pull-right"></span></div><div class="checkbox"><label for="salary4"><input type="checkbox" id="salary4" name="SalaryInfo1" value="6" />$2,5 a $3</label><span class="badge pull-right"></span></div><div class="checkbox"><label for="salary5"><input type="checkbox" id="salary5" name="SalaryInfo1" value="7" />$3 a $3,5</label><span class="badge pull-right"></span></div><div class="checkbox"><label for="salary6"><input type="checkbox" id="salary6" name="SalaryInfo1" value="8" />$3,5 a $4</label><span class="badge pull-right"></span></div><div class="checkbox"><label for="salary7"><input type="checkbox" id="salary7" name="SalaryInfo1" value="9" />$4 a $4,5</label><span class="badge pull-right"></span></div><div class="checkbox"><label for="salary8"><input type="checkbox" id="salary8" name="SalaryInfo1" value="10" />$4,5 a $5,5</label><span class="badge pull-right"></span></div><div class="checkbox"><label for="salary9"><input type="checkbox" id="salary9" name="SalaryInfo1" value="23" />$5,5 a $6</label><span class="badge pull-right"></span></div><div class="checkbox"><label for="salary10"><input type="checkbox" id="salary10" name="SalaryInfo1" value="27" />$6 a $8</label><span class="badge pull-right"></span></div><div class="checkbox"><label for="salary11"><input type="checkbox" id="salary11" name="SalaryInfo1" value="28" />$8 a $10</label><span class="badge pull-right"></span></div><div class="checkbox"><label for="salary12"><input type="checkbox" id="salary12" name="SalaryInfo1" value="29" />$10 a $12,5</label><span class="badge pull-right"></span></div><div class="checkbox"><label for="salary13"><input type="checkbox" id="salary13" name="SalaryInfo1" value="30" />$12,5 a $15</label><span class="badge pull-right"></span></div><div class="checkbox"><label for="salary14"><input type="checkbox" id="salary14" name="SalaryInfo1" value="33" />Más de $21</label><span class="badge pull-right"></span></div></div>
+  </div>
+
+  
+  <div class="form-group searchCity-wrapper ">
+    <h4 class="seo-label-text ee-mod">
+      <label class="control-label" for="searchCity1">
+        Ciudad
+      </label>
+    </h4>
+    <span class="twitter-typeahead" style="position: relative; display: inline-block;"><input class="form-control js-filter-cities tt-hint" type="text" readonly="" autocomplete="off" spellcheck="false" tabindex="-1" dir="ltr" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; opacity: 1; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);" /><input class="form-control js-filter-cities tt-input" id="searchCity1" type="text" placeholder="Escribe una ciudad" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent;" /><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: Ubuntu, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;">Bogotá</pre><div class="tt-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none;"><div class="tt-dataset tt-dataset-search"><div class="tt-suggestion tt-selectable"><strong class="tt-highlight">Bogotá</strong></div><div class="tt-suggestion tt-selectable"><strong class="tt-highlight">Bogotá</strong> alrededores</div></div></div></span>
+  </div>
+
+  
+  <div class="form-group publish-date-filter">
+    <h4 class="seo-label-text ee-mod">
+      <label class="control-label">
+        Fecha de publicación
+      </label>
+    </h4>
+    <div class="radio-options ee-mod js-filter-date-published"><div class="radio"><label for="publishDate0"><input type="radio" id="publishDate0" name="PublishDatesInfo1" value="1" />Hoy y ayer</label></div><div class="radio"><label for="publishDate1"><input type="radio" id="publishDate1" name="PublishDatesInfo1" value="2" />Hace 1 semana</label></div><div class="radio"><label for="publishDate2"><input type="radio" id="publishDate2" name="PublishDatesInfo1" value="3" />Hace 2 semanas</label></div><div class="radio"><label for="publishDate3"><input type="radio" id="publishDate3" name="PublishDatesInfo1" value="4" />Hace 1 mes</label></div><div class="radio"><label for="publishDate4"><input type="radio" id="publishDate4" name="PublishDatesInfo1" value="6" />Hace más de 1 mes</label></div></div>
+  </div>
+
+  
+  <div class="form-group">
+    <h4 class="seo-label-text ee-mod">
+      <label class="control-label" for="WorkAreaFilter1">
+        Área de trabajo
+      </label>
+    </h4>
+
+    <select class="form-control js-filter-sector" id="WorkAreaFilter1" name="WorkAreaFilter1"><option value="0">Todas las áreas</option><option value="2">Administrativa y Financiera</option><option value="48">Archivo y Documentación</option><option value="4">Auditoría, Contraloría e Interventoría</option><option value="5">Comercial, Ventas y Telemercadeo</option><option value="6">Comercio Exterior</option><option value="53">Compras e Inventarios</option><option value="42">Logística y Distribución</option><option value="19">Mercadeo y Publicidad</option><option value="30">Operaciones y Procesos</option><option value="20">Recepción</option><option value="21">Recursos Humanos y Admón. de Personal</option><option value="22">Salud</option><option value="23">Secretariado</option><option value="25">Servicio al Cliente</option></select>
+  </div>
+</div>
+
+          </div>
+
+          <div class="">
+            
+
+  <div class="well ee-alert-module ee-mod">
+    <div class="media">
+      <div class="media-left media-bottom">
+        <img class="media-object pull-left" src="/resources/Content/dist/images/areas/persons/Alerts/alertas_icono_3.svg" width="30" height="30" alt="" />
+      </div>
+      <div class="media-body media-bottom">
+        <div class="alert-title">
+          <strong>
+            Crear alerta de empleo
+          </strong>
+        </div>
+      </div>
+    </div>
+    <hr class="separation-line" />
+    <p>
+      Recibe <strong>ofertas</strong> en tu correo relacionadas con esta búsqueda.
+    </p>
+
+<form action="/co/Persons/Alerts/ValidateRulesAlertFromJobOffer" class="js-create-alert-form" method="post" novalidate="novalidate"><input name="__RequestVerificationToken" type="hidden" value="EcnE5f76bDshGNGarj6K-Kc5Cb21PSX17WncKOm9kbDGTkk7UAhE7jYR7z7GMxDSqTZcepmdQKZ4z7yy4ZLAXc3g96k1" /><input data-val="true" data-val-number="The field JobOfferId must be a number." data-val-required="The JobOfferId field is required." id="JobOfferId" name="JobOfferId" type="hidden" value="0" />        <div class="input-group form-group">
+          <div class="input-group ">
+            <label class="control-label hidden" for="Email">E-mail</label>
+
+            <input class="form-control" data-val="true" data-val-maxlength="La longitud máxima es de 75 caracteres" data-val-maxlength-max="75" data-val-minlength="La longitud mínima es de 7 caracteres" data-val-minlength-min="7" data-val-regex="Ingresa un correo correcto" data-val-regex-pattern="^([\w\.\-]+)@([\w\-]+)((\.(\w){2,11})+)$" data-val-required="Ingresa un correo correcto" id="text-email" name="Email" placeholder="ejemplo@ee.com" type="text" value="" />
+
+            <span class="input-group-btn">
+              <button class="btn btn-secondary js-btn-create-alert" type="submit" data-alert-params="[{ &quot;Name&quot;: &quot;createAlertPostLogin&quot;, &quot;Value&quot;: true }]">
+                Crear
+                <i class="fa fa-bell-o hidden-xs" aria-hidden="true"></i>
+              </button>
+            </span>
+          </div>
+
+          <span class="field-validation-valid field-validation-valid help-block" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+        </div>
+</form>  </div>
+
+          </div>
+
+          
+
+        <div class="visible-lg banner300x250 js-advertising" id="sas_9346" data-site-id="22173" data-page-id="652649" data-format-id="9346" data-target="" data-tape="true"><div class="ee-ad-tape">Publicidad</div><script id="sas_script2" type="text/javascript" src="//ads.eltiempo.co/ac?nwid=484&amp;siteid=22173&amp;pgid=652649&amp;fmtid=9346&amp;async=1&amp;visit=s&amp;tmstp=3609093809&amp;tag=sas_9346&amp;sh=768&amp;sw=1366&amp;pgDomain=https%3A%2F%2Fwww.elempleo.com%2Fco%2Fofertas-empleo%2Fbogota&amp;noadcbk=sas.noad" async=""></script><div style="display: none;"></div><iframe src="about:blank" width="300" height="250" frameborder="0" allow="autoplay;fullscreen;" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+        <noscript>
+    &lt;a href="//ads.eltiempo.co/ac?jump=1&amp;nwid=484&amp;siteid=22173&amp;pgname=resultados_busqueda&amp;fmtid=9346&amp;visit=m&amp;tmstp=[timestamp]&amp;out=nonrich" target="_blank"&gt;
+        &lt;img src="//ads.eltiempo.co/ac?out=nonrich&amp;nwid=484&amp;siteid=22173&amp;pgname=resultados_busqueda&amp;fmtid=9346&amp;visit=m&amp;tmstp=[timestamp]" border="0" alt="" /&gt;
+    &lt;/a&gt;
+</noscript>
+
+
+        </div>
+      </div>
+<hr class="hidden-xs" />
+<section class="quick-search">
+  <div class="container">
+    <div class="row hidden-xs prefooter-content">
+      <div class="col-sm-9">
+        <h2 class="h2 hidden-xs prefooter-title">Búsquedas rápidas de nuestro portal web</h2>
+      </div>
+
+      
+    </div>
+
+    <div class="row hidden-xs prefooter-content">
+
+        <ul class="col-md-4 col-sm-6 col-lg-3 list-unstyled">
+            <li class="ee_list-item">
+              <a class="ee_list-item-text" href="https://www.elempleo.com/co/ofertas-empleo/">
+                <small>
+                  Ofertas de trabajo
+                </small>
+              </a>
+            </li>
+            <li class="ee_list-item">
+              <a class="ee_list-item-text" href="https://www.elempleo.com/co/ofertas-empleo/trabajo-sin-experiencia/">
+                <small>
+                  Trabajo sin experiencia
+                </small>
+              </a>
+            </li>
+            <li class="ee_list-item">
+              <a class="ee_list-item-text" href="https://www.elempleo.com/co/ofertas-empleo/bogota-alrededores/">
+                <small>
+                  Trabajo en Bogotá y alrededores
+                </small>
+              </a>
+            </li>
+            <li class="ee_list-item">
+              <a class="ee_list-item-text" href="https://www.elempleo.com/co/ofertas-empleo/bucaramanga/">
+                <small>
+                  Trabajo en Bucaramanga
+                </small>
+              </a>
+            </li>
+            <li class="ee_list-item">
+              <a class="ee_list-item-text" href="https://www.elempleo.com/co/ofertas-empleo/villavicencio/">
+                <small>
+                  Trabajo en Villavicencio
+                </small>
+              </a>
+            </li>
+        </ul>
+        <ul class="col-md-4 col-sm-6 col-lg-3 list-unstyled">
+            <li class="ee_list-item">
+              <a class="ee_list-item-text" href="https://www.elempleo.com/co/ofertas-empleo/cartagena/">
+                <small>
+                  Trabajo en Cartagena
+                </small>
+              </a>
+            </li>
+            <li class="ee_list-item">
+              <a class="ee_list-item-text" href="https://www.elempleo.com/co/ofertas-empleo/neiva/">
+                <small>
+                  Trabajo en Neiva
+                </small>
+              </a>
+            </li>
+            <li class="ee_list-item">
+              <a class="ee_list-item-text" href="https://www.elempleo.com/co/ofertas-empleo/santa-marta/">
+                <small>
+                  Trabajo en Santa Marta
+                </small>
+              </a>
+            </li>
+            <li class="ee_list-item">
+              <a class="ee_list-item-text" href="https://www.elempleo.com/co/ofertas-empleo/pasto/">
+                <small>
+                  Trabajo en Pasto
+                </small>
+              </a>
+            </li>
+            <li class="ee_list-item">
+              <a class="ee_list-item-text" href="https://www.elempleo.com/co/ofertas-empleo/tunja/">
+                <small>
+                  Trabajo en Tunja
+                </small>
+              </a>
+            </li>
+        </ul>
+        <ul class="col-md-4 col-sm-6 col-lg-3 list-unstyled">
+            <li class="ee_list-item">
+              <a class="ee_list-item-text" href="https://www.elempleo.com/co/ofertas-empleo/trabajo-operario/">
+                <small>
+                  Trabajo para operario
+                </small>
+              </a>
+            </li>
+            <li class="ee_list-item">
+              <a class="ee_list-item-text" href="https://www.elempleo.com/co/ofertas-empleo/trabajo-recepcionista/">
+                <small>
+                  Trabajo para recepcionista
+                </small>
+              </a>
+            </li>
+            <li class="ee_list-item">
+              <a class="ee_list-item-text" href="https://www.elempleo.com/co/ofertas-empleo/trabajo-escolta/">
+                <small>
+                  Trabajo para escolta
+                </small>
+              </a>
+            </li>
+            <li class="ee_list-item">
+              <a class="ee_list-item-text" href="https://www.elempleo.com/co/ofertas-empleo/trabajo-call-center/">
+                <small>
+                  Trabajo en call center
+                </small>
+              </a>
+            </li>
+            <li class="ee_list-item">
+              <a class="ee_list-item-text" href="https://www.elempleo.com/co/ofertas-empleo/trabajo-estudiantes-universitarios/">
+                <small>
+                  Trabajo para universitarios
+                </small>
+              </a>
+            </li>
+        </ul>
+        <ul class="col-md-4 col-sm-6 col-lg-3 list-unstyled">
+            <li class="ee_list-item">
+              <a class="ee_list-item-text" href="https://www.elempleo.com/co/ofertas-empleo/trabajo-guarda-de-seguridad/">
+                <small>
+                  Trabajo para guardia de seguridad
+                </small>
+              </a>
+            </li>
+            <li class="ee_list-item">
+              <a class="ee_list-item-text" href="https://www.elempleo.com/co/ofertas-empleo/trabajo-analista-administrativo/">
+                <small>
+                  Trabajo para analista administrativo
+                </small>
+              </a>
+            </li>
+            <li class="ee_list-item">
+              <a class="ee_list-item-text" href="https://www.elempleo.com/co/ofertas-empleo/trabajo-asesor-comercial/">
+                <small>
+                  Trabajo para asesor comercial
+                </small>
+              </a>
+            </li>
+            <li class="ee_list-item">
+              <a class="ee_list-item-text" href="https://www.elempleo.com/co/ofertas-empleo/trabajo-auditoria-contable/">
+                <small>
+                  Trabajo en auditoría contable
+                </small>
+              </a>
+            </li>
+            <li class="ee_list-item">
+              <a class="ee_list-item-text" href="https://www.elempleo.com/co/ofertas-empleo/trabajo-enfermera/">
+                <small>
+                  Trabajo para enfermera
+                </small>
+              </a>
+            </li>
+        </ul>
+
+    </div>
+  </div>
+</section>
+
+</div>
+
+
+<div class="hidden ee-mod-user-id">
+  0
+</div>
+
+<span class="hidden js-search-api-token">
+  <input name="__RequestVerificationToken" type="hidden" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJuYW1lIjoiVmFsaWRhdGVBbnRpRm9yZ2VyeVRva2VuV2ViQXBpQXR0cmlidXRlIn0=.178aJgnJctRxIfCFJ3vGmKKcIzaT9PFQTN8sOaF+11cSLeoDGYHVcGG41TQBK1uKAAOkso+bxp/hjbXmxvFszD+D/KrhGKG2KjTwRyd6r3T1Eol9zMDXpj/ciPcB+x70Kyh4/gbCJZtMXn7fwVNeyHnjE9c+cAcRX4aO8f6kKa0=" />
+</span>
+
+<input class="js-conf" type="hidden" data-cities-val="[{&quot;selected&quot;:false,&quot;id&quot;:&quot;0&quot;,&quot;name&quot;:&quot;Todas las ciudades&quot;,&quot;count&quot;:2697},{&quot;selected&quot;:true,&quot;id&quot;:&quot;34&quot;,&quot;name&quot;:&quot;Bogotá&quot;,&quot;count&quot;:1526},{&quot;selected&quot;:false,&quot;id&quot;:&quot;23914&quot;,&quot;name&quot;:&quot;Bogotá alrededores&quot;,&quot;count&quot;:780},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25585&quot;,&quot;name&quot;:&quot;Chía&quot;,&quot;count&quot;:15},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25598&quot;,&quot;name&quot;:&quot;Funza&quot;,&quot;count&quot;:15},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25626&quot;,&quot;name&quot;:&quot;Mosquera&quot;,&quot;count&quot;:15},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25580&quot;,&quot;name&quot;:&quot;Cajicá&quot;,&quot;count&quot;:13},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25595&quot;,&quot;name&quot;:&quot;Facatativá&quot;,&quot;count&quot;:13},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25623&quot;,&quot;name&quot;:&quot;Madrid&quot;,&quot;count&quot;:13},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25590&quot;,&quot;name&quot;:&quot;Cota&quot;,&quot;count&quot;:11},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25594&quot;,&quot;name&quot;:&quot;El Rosal&quot;,&quot;count&quot;:9},{&quot;selected&quot;:false,&quot;id&quot;:&quot;10&quot;,&quot;name&quot;:&quot;Medellín&quot;,&quot;count&quot;:8},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25577&quot;,&quot;name&quot;:&quot;Bojacá&quot;,&quot;count&quot;:8},{&quot;selected&quot;:false,&quot;id&quot;:&quot;21190&quot;,&quot;name&quot;:&quot;Girardot&quot;,&quot;count&quot;:7},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25602&quot;,&quot;name&quot;:&quot;Gachancipá&quot;,&quot;count&quot;:7},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25588&quot;,&quot;name&quot;:&quot;Chocontá&quot;,&quot;count&quot;:6},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25599&quot;,&quot;name&quot;:&quot;Fúquene&quot;,&quot;count&quot;:6},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25616&quot;,&quot;name&quot;:&quot;La Calera&quot;,&quot;count&quot;:6},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25655&quot;,&quot;name&quot;:&quot;Soacha&quot;,&quot;count&quot;:6},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25656&quot;,&quot;name&quot;:&quot;Sopó&quot;,&quot;count&quot;:6},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25669&quot;,&quot;name&quot;:&quot;Tocancipá&quot;,&quot;count&quot;:6},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25570&quot;,&quot;name&quot;:&quot;Agua de Dios&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25571&quot;,&quot;name&quot;:&quot;Albán&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25572&quot;,&quot;name&quot;:&quot;Anapoima&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25573&quot;,&quot;name&quot;:&quot;Anolaima&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25574&quot;,&quot;name&quot;:&quot;Arbeláez&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25575&quot;,&quot;name&quot;:&quot;Beltrán&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25576&quot;,&quot;name&quot;:&quot;Bituima&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25578&quot;,&quot;name&quot;:&quot;Cabrera&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25579&quot;,&quot;name&quot;:&quot;Cachipay&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25581&quot;,&quot;name&quot;:&quot;Caparrapí&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25582&quot;,&quot;name&quot;:&quot;Caqueza&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25583&quot;,&quot;name&quot;:&quot;Carmen de Carupa&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25584&quot;,&quot;name&quot;:&quot;Chaguaní&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25586&quot;,&quot;name&quot;:&quot;Chipaque&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25587&quot;,&quot;name&quot;:&quot;Choachí&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25589&quot;,&quot;name&quot;:&quot;Cogua&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25591&quot;,&quot;name&quot;:&quot;Cucunubá&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25592&quot;,&quot;name&quot;:&quot;El Colegio&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25593&quot;,&quot;name&quot;:&quot;El Peñón&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25596&quot;,&quot;name&quot;:&quot;Fomeque&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25597&quot;,&quot;name&quot;:&quot;Fosca&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25600&quot;,&quot;name&quot;:&quot;Fusagasugá&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25601&quot;,&quot;name&quot;:&quot;Gachala&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25603&quot;,&quot;name&quot;:&quot;Gachetá&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25604&quot;,&quot;name&quot;:&quot;Gama&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25605&quot;,&quot;name&quot;:&quot;Granada&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25606&quot;,&quot;name&quot;:&quot;Guachetá&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25607&quot;,&quot;name&quot;:&quot;Guaduas&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25608&quot;,&quot;name&quot;:&quot;Guasca&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25609&quot;,&quot;name&quot;:&quot;Guataquí&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25610&quot;,&quot;name&quot;:&quot;Guatavita&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25611&quot;,&quot;name&quot;:&quot;Guayabal de Siquima&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25612&quot;,&quot;name&quot;:&quot;Guayabetal&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25613&quot;,&quot;name&quot;:&quot;Gutiérrez&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25614&quot;,&quot;name&quot;:&quot;Jerusalén&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25615&quot;,&quot;name&quot;:&quot;Junín&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25617&quot;,&quot;name&quot;:&quot;La Mesa&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25618&quot;,&quot;name&quot;:&quot;La Palma&quot;,&quot;count&quot;:5},{&quot;selected&quot;:false,&quot;id&quot;:&quot;25619&quot;,&quot;name&quot;:&quot;La Peña&quot;,&quot;count&quot;:5}]" data-hbtpl-pagination="#hbtpl-pagination" data-hbtpl-results="#hbtpl-jobOffers-list-result" data-hbtpl-breadcrumb="#hbtpl-breadCrumb" data-request-params="{&quot;jobOfferId&quot;:0,&quot;query&quot;:&quot;Contador&quot;,&quot;salaryInfo&quot;:[],&quot;city&quot;:34,&quot;publishDate&quot;:0,&quot;area&quot;:0,&quot;countryId&quot;:0,&quot;departmentId&quot;:0,&quot;companyId&quot;:0,&quot;jobOfferCode&quot;:null,&quot;pageIndex&quot;:1,&quot;pageSize&quot;:20,&quot;sortExpression&quot;:&quot;PublishDate_Desc&quot;,&quot;queryPlaceholder&quot;:&quot;Contador&quot;,&quot;cityPlaceholder&quot;:&quot;Bogotá&quot;}" data-pagination="{&quot;pageIndex&quot;:1,&quot;pageSize&quot;:20,&quot;pageResultSize&quot;:20,&quot;totalPages&quot;:78,&quot;totalRecords&quot;:1552,&quot;isLandingPage&quot;:false,&quot;resultsByPage&quot;:[20,50,100]}" data-resources="{&quot;buttonShowAll&quot;:&quot;Mostrar más resultados&quot;,&quot;buttonText&quot;:&quot;Vista rápida&quot;,&quot;resultsTo&quot;:&quot;a&quot;,&quot;resultsFor&quot;:&quot;de&quot;,&quot;resultsItemsName&quot;:&quot;ofertas&quot;,&quot;resultsOneItemName&quot;:&quot;oferta&quot;,&quot;resultsPerPageText&quot;:&quot;Resultados por página&quot;,&quot;buttonSeemore&quot;:&quot;Mostrar más resultados&quot;,&quot;buttonQuickViewSeeJobOffer&quot;:&quot;Ver oferta&quot;,&quot;buttonQuickViewApplyJobOffer&quot;:&quot;Aplicar oferta&quot;,&quot;nullSearchTitleText&quot;:null,&quot;nullSearchMessageText&quot;:null,&quot;nullSearchByCompanyTitleText&quot;:null,&quot;nullSearchByCompanyMessageText&quot;:null,&quot;alertResultEmpty&quot;:&quot;No existen resultados para la búsqueda.&quot;,&quot;alertResultError&quot;:&quot;Tuvimos un inconveniente al hacer tu búsqueda. Por favor usa los filtros de la izquierda o busca nuevamente.&quot;,&quot;jobOfferNotFoundTitle&quot;:&quot;No está disponible la oferta de empleo que buscaste, pero...&quot;,&quot;jobOfferNotFoundDescription&quot;:&quot;Te mostramos todas las vacantes vigentes&quot;,&quot;taCitiesNotFound&quot;:&quot;No tenemos coincidencias en tu búsqueda&quot;,&quot;defaultSalaryOption&quot;:&quot;Todos los salarios&quot;}" data-webapi-search="/co/api/joboffers/findbyfilter" data-webapi-joboffer="/co/api/joboffers/getjoboffer" data-init-filters="{&quot;jobOfferId&quot;:0,&quot;query&quot;:&quot;Contador&quot;,&quot;salaryInfo&quot;:[],&quot;city&quot;:34,&quot;publishDate&quot;:0,&quot;area&quot;:0,&quot;countryId&quot;:0,&quot;departmentId&quot;:0,&quot;companyId&quot;:0,&quot;jobOfferCode&quot;:null,&quot;pageIndex&quot;:1,&quot;pageSize&quot;:20,&quot;sortExpression&quot;:&quot;PublishDate_Desc&quot;,&quot;queryPlaceholder&quot;:&quot;Contador&quot;,&quot;cityPlaceholder&quot;:&quot;Bogotá&quot;}" data-hbtpl-list="#hbtpl-jobOffers-list-result" data-nullsearch="hidden" data-results-joboffers="1552" data-query="Contador" data-validate-rules-url="/co/Persons/Alerts/ValidateRulesAlertFromJobOffer" data-parameters-search-url="/co/JobOffers/ResultJobOffers/GetParametersJobOffersSearch" data-section-alert-url="/co/Persons/Alerts/CreateAlertFromResultJobOffer" data-no-create-alert="Alerta no creada" data-parameters-invalid="La alerta &lt;strong&gt;Alerta búsqueda 04/3/19&lt;/strong&gt; no se ha creado, selecciona más variables para poder guardar la alerta correctamente (palabra clave - ciudad - salario)." data-constraint-val="{&quot;Cities&quot;:[{&quot;Id&quot;:34,&quot;Name&quot;:&quot;Bogotá&quot;}],&quot;Code&quot;:null,&quot;Companies&quot;:[],&quot;Company&quot;:null,&quot;ContractType&quot;:null,&quot;CreationDate&quot;:null,&quot;Departments&quot;:[],&quot;DidYouMean&quot;:null,&quot;EducationStatusses&quot;:[],&quot;Id&quot;:null,&quot;Industries&quot;:[],&quot;JobOffersIds&quot;:[],&quot;KeyWord&quot;:&quot;Contador&quot;,&quot;Name&quot;:null,&quot;OnlyNoConfidentOffers&quot;:null,&quot;OnlyWithSalaryOffers&quot;:null,&quot;PositionLevels&quot;:[],&quot;PositionSubLevels&quot;:[],&quot;Positions&quot;:[],&quot;PublishDate&quot;:null,&quot;SalariesInfo&quot;:[],&quot;SearchOfferForIndependent&quot;:null,&quot;SearchOfferForNonIndependent&quot;:null,&quot;Sectors&quot;:[],&quot;WithOutResultForText&quot;:null,&quot;WorkAreas&quot;:[]}" data-page-name="elempleo: personas: resultados de busqueda" data-channel-name="elempleo: personas:busquedas" data-url-get-login="/co/JobOffers/ResultJobOffers/GetLoginUrlForOffer" data-url-login="/co/iniciar-sesion" />
+
+
+
+  
+<footer class="footer js-footer" itemscope="" itemtype="http://schema.org/WPFooter">
+
+
+<div class="first-level hidden-print">
+  <div class="container">
+    <a href="https://www.elempleo.com/co/" rel=" nofollow">
+      <img class="img-responsive ee-brand" src="/resources/Content/dist/images/layout/es-CO_ee_logo_white_transparent.svg" alt="IMAGES" width="155" />
+    </a>
+
+    <div class="row">
+      <ul class="col-xs-12 col-md-3 col-sm-4 list-info">
+        <li class="hidden-xs list-item">
+          <i class="fa fa-building fa-fw list-item-icon" aria-hidden="true"></i>
+          <span class="list-item-text">
+            Av. Calle 26 # 68B-70
+            <br />
+            <span class="info-text-align">
+              Bogotá - Colombia
+            </span>
+          </span>
+        </li>
+        <li class="list-item">
+          <i class="fa fa-phone fa-fw list-item-icon" aria-hidden="true"></i>
+          <a class="list-item-text" href="tel:+5712940100">
+            (57) (1) - 294 - 0100
+          </a>
+          <br />
+          <span class=" list-item-text info-text-align">
+            Ext: 5993 - 5295
+          </span>
+        </li>
+        <li class="list-item">
+          <i class="fa fa-phone fa-fw list-item-icon" aria-hidden="true"></i>
+          <span class="list-item-text">
+            <strong>
+              Línea nacional gratuita
+            </strong>
+            <br />
+            <span class="info-text-align">
+              01 8000 123456
+            </span>
+          </span>
+        </li>
+        <li class="list-item">
+          <i class="fa fa-envelope fa-fw list-item-icon" aria-hidden="true"></i>
+          <a class="list-item-text" href="mailto:info@elempleo.com">
+            info@elempleo.com
+          </a>
+        </li>
+        <li class="list-item">
+          <i class="fa fa-question-circle fa-fw list-item-icon" aria-hidden="true"></i>
+          <a class="list-item-text" href="/co/contactenos-quejas-reclamos">
+            Contáctanos
+          </a>
+        </li>
+      </ul>
+
+      <ul class="hidden-xs hidden-sm col-md-3 list-links">
+        <li class="list-item">
+          <a rel="nofollow" class="list-item-text" href="https://www.elempleo.com/co/">
+            Inicio
+          </a>
+        </li>
+        <li class="list-item">
+          <a rel="nofollow" class="list-item-text" href="/co/hoja-de-vida/mi-cuenta">
+            Configuración
+          </a>
+        </li>
+        <li class="list-item">
+          <a rel="nofollow" class="list-item-text" href="/co/ofertas-empleo/bogota">
+            Buscar ofertas
+          </a>
+        </li>
+        <li class="list-item">
+          <a rel="nofollow" class="list-item-text" href="/co/noticias">
+            Noticias
+          </a>
+        </li>
+        <li class="list-item">
+          <a rel="nofollow" class="list-item-text" href="/co/empleo-vip">
+            Elempleo VIP
+          </a>
+        </li>
+        <li class="list-item">
+          <a rel="nofollow" class="list-item-text" href="https://www.elempleo.com/co/registrar-empresa" target="_blank">
+            Publicar ofertas
+          </a>
+        </li>
+        <li class="list-item">
+          <a rel="nofollow" class="list-item-text" href="/co/calculadora-salarial">
+            Calculadora salarial
+          </a>
+        </li>
+      </ul>
+
+      <ul class="hidden-xs col-md-3 col-sm-4 list-links">
+        
+        <li class="list-item">
+          <a class="list-item-text" href="/co/ayuda">
+            Ayuda
+          </a>
+        </li>
+        <li class="list-item">
+          <a class="list-item-text" href="http://www.elempleo.com/colombia/universidad/bolsa-de-empleo.aspx" target="_blank">
+            Portal bases universitarias
+          </a>
+        </li>
+        <li class="list-item">
+          <a class="list-item-text" href="/co/terminos-condiciones?icid=Legal-Terminos-y-condiciones" target="_blank" rel="nofollow">
+            Términos y condiciones
+          </a>
+        </li>
+        <li class="list-item">
+          <a class="list-item-text" href="/co/aviso-privacidad?icid=Legal-Aviso-de-privacidad" target="_blank" rel="nofollow">
+            Aviso de privacidad
+          </a>
+        </li>
+        <li class="list-item">
+          <a rel="nofollow" class="js-download-document list-item-text" target="_bank" href="/co/Files/Politicas_procedimientos_proteccion_datos_personales.pdf">
+            Protección de datos
+          </a>
+        </li>
+        <li class="list-item">
+          <a class="list-item-text" href="http://www.audienciadigital.co" rel="nofollow" target="_blank">
+            Pauta con nosotros
+          </a>
+        </li>
+         <li class="list-item">
+          <a class="list-item-text" href="https://www.eltiempo.com/linea-etica" rel="nofollow" target="_blank">
+            Línea Ética
+          </a>
+        </li>
+          <li class="list-item">
+              <a class="list-item-text" href="/co/reversiones-pagos" rel="nofollow" target="_blank">
+                  Reversiones de pago
+              </a>
+          </li>
+      </ul>
+
+      <div class="col-xs-12 col-md-3 col-sm-4 followingus">
+        <span class="hidden-xs ee-social-network-sm">
+          Síguenos
+        </span>
+        <ul class="list-inline followingus-list">
+          <li class="hidden-lg hidden-md hidden-sm">
+            Síguenos
+          </li>
+          <li>
+            <a rel="nofollow" href="http://www.facebook.com/elempleocom" target="_blank">
+              <i class="fa fa-lg fa-facebook followingus-icon"></i>
+            </a>
+          </li>
+          <li>
+            <a rel="nofollow" href="http://twitter.com/elempleocom" target="_blank">
+              <i class="fa fa-lg fa-twitter followingus-icon"></i>
+            </a>
+          </li>
+          <li>
+            <a rel="nofollow" href="http://plus.google.com/u/0/+elempleo" target="_blank">
+              <i class="fa fa-lg fa-google-plus followingus-icon"></i>
+            </a>
+          </li>
+          <li>
+            <a rel="nofollow" href="http://www.youtube.com/user/noticiaselempleo" target="_blank">
+              <i class="fa fa-lg fa-youtube-play followingus-icon"></i>
+            </a>
+          </li>
+          <li class="list-item-country">
+            <div class="col-xs-12  btn-group btn-block ee-country-group dropdown-toggle">
+              <a class="btn btn-ghost btn-select-country content-country" href="#" data-toggle="dropdown">
+                <img class="ee-country-logo" src="/resources/Content/dist/images/layout/icono_colombia.png" title="Colombia" alt="Colombia" width="17" height="17" />
+                  Colombia
+              </a>
+
+              <a class="btn btn-ghost btn-select-country dropdown-toggle" href="#" data-toggle="dropdown">
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu content-country drop-down-content btn-select-country" aria-labelledby="dropdownMenu1">
+                <li>
+                  <a class="ee-country-link" href="https://www.elempleo.com/co/">
+                    <img class="ee-country-logo" src="/resources/Content/dist/images/layout/icono_colombia.png" title="Colombia" alt="Colombia" width="17" height="17" />
+                    <span class="country-wrapper">
+                      Colombia
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="ee-country-link" href="http://www.elempleo.com/costarica/trabajo/ofertas.aspx">
+                    <img class="ee-country-logo" src="/resources/Content/dist/images/layout/icono_costarica.png" title="Costa Rica" alt="Costa Rica" width="17" height="17" />
+                    <span class="country-wrapper">
+                      Costa Rica
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="ee-country-link" href="http://www.elempleo.com.pe/clientes/index.asp">
+                    <img class="ee-country-logo" src="/resources/Content/dist/images/layout/icono_peru.png" title="Perú" alt="Perú" width="17" height="17" />
+                    <span class="country-wrapper">
+                      Perú
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="portals hidden-xs">
+      <span class="hidden-lg hidden-md hidden-xs title-portals">
+        Nuestros portales especializados:
+      </span>
+
+      <ol class="text-left">
+        <li class="ee-title-portals hidden-sm">
+          <h4 class="title-portals">
+            Nuestros portales especializados:
+          </h4>
+        </li>
+        <li>
+          <a href="http://www.guiaacademica.com" target="_blank" rel="nofollow">
+            <img src="/resources/Content/dist/images/layout/portales_logo_06.png" alt="IMAGES" width="143" height="27" />
+          </a>
+        </li>
+        <li>
+          <a href="http://www.metrocuadrado.com" target="_blank" rel="nofollow">
+            <img src="/resources/Content/dist/images/layout/portales_logo_02.png" alt="IMAGES" width="73" height="26" />
+          </a>
+        </li>
+        <li>
+          <a href="http://www.carroya.com" target="_blank" rel="nofollow">
+            <img src="/resources/Content/dist/images/layout/portales_logo_03.png" alt="IMAGES" width="74" height="26" />
+          </a>
+        </li>
+        <li>
+          <a href="https://clasificados.eltiempo.com" target="_blank" rel="nofollow">
+            <img src="/resources/Content/dist/images/layout/portales_logo_01.png" alt="IMAGES" width="145" height="25" />
+          </a>
+        </li>
+        <li>
+          <a href="https://goo.gl/Yd3y8T" target="_blank" rel="nofollow">
+            <img src="/resources/Content/dist/images/layout/portales_logo_08.png" alt="IMAGES" />
+          </a>
+        </li>
+      </ol>
+    </div>
+  </div>
+</div>
+
+<div class="second-level hidden-print">
+  <div class="container">
+
+    
+    <div class="pull-left">
+      <a href="http://www.elempleo.com/sitios-empresariales/colombia/el-tiempo-casa-editorial/" target="_blank" rel=" nofollow">
+        <img class="img-responsive" src="/resources/Content/dist/images/layout/CEET_blanco.png" alt="Logo ElTiempo" title="El Tiempo, Casa Editorial" height="24" width="93" />
+      </a>
+    </div>
+
+    <div class="visible-sm col-sm-7 col-sm-offset-1 legal">
+      <p>
+        COPYRIGHT © 2017 Leadearsearch S.A.S Prohibida su reproducción total o parcial, así como su traducción a cualquier idioma sin autorización escrita de su titular. elempleo.com es un producto de Leadearsearch S.A.S. Nit. 8300651578.
+      </p>
+    </div>
+
+    
+    <div class="pull-right">
+      <a href="http://www.sic.gov.co/ " target="_blank" rel=" nofollow">
+        <img class="img-responsive" src="/resources/Content/dist/images/layout/logo_sic.png" alt="Logo SIC" title="El Tiempo, Casa Editorial" height="30" width="118" />
+      </a>
+    </div>
+
+
+    <div class="row">
+
+      
+      <div class="col-xs-12 col-md-5 col-md-push-4 legal">
+        <p class="copyright hidden-sm">
+          COPYRIGHT © 2017 Leadearsearch S.A.S Prohibida su reproducción total o parcial, así como su traducción a cualquier idioma sin autorización escrita de su titular. elempleo.com es un producto de Leadearsearch S.A.S. Nit. 8300651578.
+        </p>
+        <p class="term-and-conditions visible-xs-block">
+          <a href="/co/terminos-condiciones" class="link" target="_blank">
+            <i class="fa fa-calendar-check-o"></i>
+            Términos y condiciones
+          </a>
+        </p>
+        <p class="term-and-conditions visible-xs-block">
+          <a href="/co/aviso-privacidad" class="link" target="_blank">
+            Aviso de privacidad
+          </a>
+        </p>
+        <p class="term-and-conditions visible-xs-block">
+          <a href="/co/Files/Politicas_procedimientos_proteccion_datos_personales.pdf" class="link" target="_bank">
+            Protección de datos
+          </a>
+        </p>
+      </div>
+
+      
+      <div class="col-xs-12 col-md-4 col-md-pull-5 text-center site-network">
+        <button class="btn btn-ghost btn-sitenetwork" type="button" data-toggle="collapse" data-target=".site-network-list">
+          Conoce nuestra red de portales
+          <span class="caret"></span>
+        </button>
+      </div>
+    </div>
+
+    
+<div class="row site-network-list js-site-network-list collapse">
+    <ul class="col-xs-12 col-sm-4 list-info list-unstyled">
+        <li class="list-item hidden-xs">
+          <a href="http://www.abcdelbebe.com/manualidades" target="_blank" class="list-item-text" rel="nofollow">
+            <strong>Manualidades para niños</strong>
+             - abcdelbebe.com
+          </a>
+        </li>
+        <li class="list-item hidden-xs">
+          <a href="http://www.citytv.com.co/" target="_blank" class="list-item-text" rel="nofollow">
+            <strong>Videos</strong>
+             - citytv.com.co
+          </a>
+        </li>
+        <li class="list-item ">
+          <a href="http://www.carroya.com/web/buscar/vehiculos/t4e0.do?tipoBusqueda=1&amp;tipoFuente=1&amp;esnuevo=N&amp;id_tipotransporte=4&amp;id_marca=&amp;id_tipovehiculo=&amp;marca=Escriba+la+marca" target="_blank" class="list-item-text" rel="nofollow">
+            <strong>Carros usados en Colombia</strong>
+             - carroya.com.co
+          </a>
+        </li>
+        <li class="list-item hidden-xs">
+          <a href="http://diarioadn.co/" target="_blank" class="list-item-text" rel="nofollow">
+            <strong>Noticias regionales</strong>
+             - diarioadn.co
+          </a>
+        </li>
+        <li class="list-item hidden-xs">
+          <a href="http://www.elempleo.com/sitios-empresariales/colombia/e-hunters/candidatos/index.asp" target="_blank" class="list-item-text" rel="nofollow">
+            <strong>Seleccionar candidatos</strong>
+             - e-hunters.com
+          </a>
+        </li>
+        <li class="list-item hidden-xs">
+          <a href="http://www.elempleo.com/co/ofertas-empleo/" target="_blank" class="list-item-text" rel="nofollow">
+            <strong>Ofertas de empleo en Colombia</strong>
+             - elempleo.com
+          </a>
+        </li>
+        <li class="list-item hidden-xs">
+          <a href="http://www.eltiempo.com/" target="_blank" class="list-item-text" rel="nofollow">
+            <strong>Noticias de Colombia</strong>
+             - eltiempo.com
+          </a>
+        </li>
+    </ul>
+    <ul class="col-xs-12 col-sm-4 list-info list-unstyled">
+        <li class="list-item hidden-xs">
+          <a href="http://www.elempleo.com/co/noticias/" target="_blank" class="list-item-text" rel="nofollow">
+            <strong>Formación profesional</strong>
+             - noticias.elempleo.com
+          </a>
+        </li>
+        <li class="list-item hidden-xs">
+          <a href="http://www.futbolred.com/liga-aguila" target="_blank" class="list-item-text" rel="nofollow">
+            <strong>Liga Águila</strong>
+             - futbolred.com
+          </a>
+        </li>
+        <li class="list-item ">
+          <a href="http://www.metrocuadrado.com/" target="_blank" class="list-item-text" rel="nofollow">
+            <strong>Venta de casas usadas</strong>
+             - metrocuadrado.com
+          </a>
+        </li>
+        <li class="list-item hidden-xs">
+          <a href="http://www.motor.com.co/" target="_blank" class="list-item-text" rel="nofollow">
+            <strong>Autos deportivos</strong>
+             - motor.com.co
+          </a>
+        </li>
+        <li class="list-item hidden-xs">
+          <a href="http://www.portafolio.co/temas/educacion" target="_blank" class="list-item-text" rel="nofollow">
+            <strong>Noticias económicas</strong>
+             - portafolio.co
+          </a>
+        </li>
+        <li class="list-item hidden-xs">
+          <a href="http://www.revistadonjuan.com/" target="_blank" class="list-item-text" rel="nofollow">
+            <strong>Fotos modelos</strong>
+             - revistadonjuan.com
+          </a>
+        </li>
+        <li class="list-item hidden-xs">
+          <a href="http://bogota.vive.in/bogota/index.html  " target="_blank" class="list-item-text" rel="nofollow">
+            <strong>Planes</strong>
+             - vive.in
+          </a>
+        </li>
+    </ul>
+    <ul class="col-xs-12 col-sm-4 list-info list-unstyled">
+        <li class="list-item hidden-xs">
+          <a href="http://alo.co/" target="_blank" class="list-item-text" rel="nofollow">
+            <strong>Estilo de vida</strong>
+             - alomujeres.com
+          </a>
+        </li>
+        <li class="list-item hidden-xs">
+          <a href="http://www.audienciadigital.co/" target="_blank" class="list-item-text" rel="nofollow">
+            <strong>Publicidad Online</strong>
+             - audienciadigital.co
+          </a>
+        </li>
+        <li class="list-item ">
+          <a href="http://www.guiaacademica.com/" target="_blank" class="list-item-text" rel="nofollow">
+            <strong>Carreras Profesionales</strong>
+             - guiaacademica.com
+          </a>
+        </li>
+        <li class="list-item ">
+          <a href="http://blackfriday.loencontraste.com/" target="_blank" class="list-item-text" rel="nofollow">
+            <strong>Black Friday Colombia</strong>
+             - loencontraste.com
+          </a>
+        </li>
+        <li class="list-item ">
+          <a href="https://goo.gl/Yd3y8T" target="_blank" class="list-item-text" rel="nofollow">
+            <strong>Negocios y Franquicias</strong>
+             - tratocontrato.com
+          </a>
+        </li>
+    </ul>
+</div>
+
+
+  </div>
+</div>
+
+
+<div class="third-level hidden-xs">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-lg-offset-1 col-lg-10">
+        <div class="media">
+          <div class="media-body media-middle">
+            <span>
+              Vinculado a la red de prestadores del Servicio Público de Empleo. Autorizado por la Unidad Administrativa Especial del Servicio Público de Empleo, según resolución No. 000191 de 2004. <a href="http://contenido.elempleo.com/mailperso/ReglamentoLeadersearchOperadorAutorizado.pdf" target="_blank">Ver reglamento de autorización.</a>
+            </span>
+          </div>
+
+          <div class="media-right media-middle">
+            <img class="media-object" src="/resources/Content/dist/images/layout/logos_co.png" width="305" height="49" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</footer>
+  
+
+
+<div class="container-fluid politics_cookie affix" id="politics_cookieCO" itemscope="" style="visibility:hidden">
+    <div class="row" style="margin: 0 4%">
+        <div class="col-xs-12 text_politics">
+            <span>
+                Cookies y privacidad
+            </span>
+            <p>Utilizamos 'cookies' propias y de terceros para gestionar el portal, elaborar información estadística, optimizar la funcionalidad del sitio y mostrar publicidad relacionada con sus preferencias a través del análisis de la navegación. </p>
+                <div><input id="culture" name="culture" type="hidden" value="CO" /> </div>
+
+        </div>
+        <div class="col-xs-12 buttons-politics text-right">
+            <a class="moreInfoLink" href="/co/politica-datos-navegacion">más información aquí &gt;&gt; </a>
+
+            <a class="btn btn-default submit-politics btnAcceptPolicyNavigationCO" rel="nofollow">Acepto</a>
+
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+  
+  <span id="mq-detector">
+    <span class="visible-xs"></span>
+    <span class="visible-sm"></span>
+    <span class="visible-md"></span>
+    <span class="visible-lg"></span>
+  </span>
+
+  
+  <div class="hidden js-handlebar-templates">
+<script id="hbtpl-notifications" type="text/x-handlebars-template">
+  &lt;div class="alert alert-{{ alertType }}" role="alert"&gt;
+    {{#if closeBtn}}
+      &lt;button type="button" class="close" data-dismiss="alert" aria-label="Close"&gt;
+        &lt;span aria-hidden="true"&gt;&amp;times;&lt;/span&gt;
+      &lt;/button&gt;
+    {{/if}}
+
+    &lt;h3&gt;
+      {{{ title }}}
+    &lt;/h3&gt;
+    &lt;p&gt;
+      {{{ copy }}}
+    &lt;/p&gt;
+  &lt;/div&gt;
+</script>
+
+    
+    
+<script id="hbtpl-jobOffer-quickview" type="text/x-handlebars-template">
+  &lt;div class="modal-content ee-quickview"&gt;
+    &lt;div class="modal-header ee-mod"&gt;
+      &lt;button class="close"
+              data-dismiss="modal"
+              type="button"
+              aria-label="Close"&gt;
+        &lt;i class="fa fa-times-circle"&gt;&lt;/i&gt;
+      &lt;/button&gt;
+      &lt;h3 class="modal-title offer-title ee-mod js-quick-result-title"&gt;
+        &lt;a href="{{ jobOfferUrl }}"&gt;
+          {{ title }}
+        &lt;/a&gt;
+      &lt;/h3&gt;
+    &lt;/div&gt;
+
+    &lt;div class="modal-body ee-mod"&gt;
+      {{#if isApply }}
+        &lt;div class="alert alert-warning" role="alert"&gt;
+          &lt;h3&gt;
+            {{ alertQuickViewTitleOfferApply }}
+          &lt;/h3&gt;
+          &lt;p&gt;
+            {{ alertQuickViewTextOfferApply }}
+          &lt;/p&gt;
+        &lt;/div&gt;
+      {{/if}}
+      &lt;div class="media"&gt;
+        &lt;div class="media-left media-middle ee-content-image"&gt;
+          &lt;img
+            class="company-logo"
+            src="{{ logo.src }}"
+            alt="{{ logo.alt }}"
+            title="{{ logo.title }}"
+            width="111"
+            height="51"&gt;
+        &lt;/div&gt;
+
+        &lt;div class="media-body media-middle"&gt;
+          &lt;div&gt;
+            &lt;span class="company-name"&gt;
+              {{ companyName }}
+            &lt;/span&gt;
+          &lt;/div&gt;
+          &lt;span class="text-primary" data-ws="{{ withSalary }}"&gt;
+            {{ salaryInfo }}
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div class="data-offer-wrapper"&gt;
+        &lt;span class="info-city"&gt;
+          &lt;i class="fa fa-map-marker fa-fw info-icon"&gt;&lt;/i&gt;
+          {{ city }}
+        &lt;/span&gt;
+        &lt;span class="pull-right info-publish-date"&gt;
+          &lt;i class="fa fa-clock-o fa-fw info-icon"&gt;&lt;/i&gt;
+          {{ publishDateInfo }}
+        &lt;/span&gt;
+      &lt;/div&gt;
+
+      &lt;p class="js-description" title="{{ descRemaining }}"&gt;
+        {{!-- Triple mustaches is used here to print html with handlebars --}}
+        {{{ descTruncated }}}
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class="modal-footer"&gt;
+      &lt;div class="row"&gt;
+        {{#unless isApply }}
+        &lt;div class="col-sm-5 col-sm-offset-1"&gt;
+          &lt;button class="btn btn-primary btn-block js-quickview-apply aplicar-oferta-resultados"
+                  data-joboffer-url="{{ jobOfferUrl }}"
+                  data-joboffer-id="{{ id }}"
+                  type="button"&gt;
+            &lt;i class="fa fa-check"&gt;&lt;/i&gt;
+            {{ buttonQuickViewApplyJobOffer }}
+          &lt;/button&gt;
+        &lt;/div&gt;
+        {{/unless}}
+        &lt;div class="
+             {{#if isApply }}
+             col-sm-4 col-sm-offset-4
+             {{else}}
+             col-sm-5
+             {{/if}} "&gt;
+          &lt;a
+             class=" btn btn-ghost-reverse btn-block js-view-offer"
+             href="{{ jobOfferUrl }}"&gt;
+          &lt;i class="fa fa-eye"&gt;&lt;/i&gt;
+          {{ buttonQuickViewSeeJobOffer }}
+          &lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+</script>
+
+<script id="hbtpl-jobOffers-list-result" type="text/x-handlebars-template">
+  {{#each results}}
+    &lt;div class="result-item"&gt;
+      &lt;div class="js-area-bind area-bind" data-url="{{ jobOfferUrl }}"&gt;
+        &lt;img
+          class="hidden-xs img-responsive result-image"
+          src="{{ logo.src }}"
+          alt="{{ logo.alt }}"
+          title="{{ logo.title }}"
+          width="130"
+          height="60"&gt;
+
+        &lt;ul class="list-unstyled result-info"&gt;
+          &lt;li&gt;
+            &lt;h2 class="h4 item-title ee-mod"&gt;
+              &lt;a
+                class="text-ellipsis"
+                href="{{ jobOfferUrl }}"
+                title="{{ title }}"&gt;
+                {{ title }}
+              &lt;/a&gt;
+            &lt;/h2&gt;
+            &lt;span class="hide"&gt;
+              {{ currency }}
+            &lt;/span&gt;
+          &lt;/li&gt;
+
+          &lt;li&gt;
+            &lt;h3 class="company-name-text ee-mod"&gt;
+              &lt;span class="hide"&gt;
+                industry
+              &lt;/span&gt;
+              &lt;span&gt;
+                &lt;span class="info-company-name"&gt;
+                  {{ companyName }}
+                &lt;/span&gt;
+              &lt;/span&gt;
+            &lt;/h3&gt;
+          &lt;/li&gt;
+
+          &lt;li&gt;
+            &lt;span class="text-primary info-salary" data-ws="{{ withSalary }}"&gt;
+              {{ salaryInfo }}
+            &lt;/span&gt;
+            
+            &lt;span&gt;
+              &lt;span&gt;
+                &lt;span class="info-city"&gt;
+                  &lt;i class="fa fa-map-marker icon"&gt;&lt;/i&gt;
+                  {{ city }}
+                &lt;/span&gt;
+                &lt;span class="hide"&gt;
+                  country
+                &lt;/span&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+
+            &lt;span class="info-publish-date pull-right"&gt;
+              &lt;i class="fa fa-clock-o icon"&gt;&lt;/i&gt;
+              {{ publishDateInfo }}
+            &lt;/span&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+
+      &lt;div class="wrapper-btn-item hidden-xs"&gt;
+        &lt;button
+          class="btn btn-ghost-reverse btn-block js-quickview"
+          data-toggle="modal"
+          data-joboffer="{{ id }}"
+          type="button"&gt;
+          &lt;i class="fa fa-eye"&gt;&lt;/i&gt;
+          {{ ../resources.buttonText }}
+        &lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  {{/each}}
+</script>
+
+<script id="hbtpl-pagination" type="text/x-handlebars-template">
+  {{#if totalRecords }}
+    {{#unless isLandingPage}}
+      &lt;button class="btn btn-secondary js-see-more btn-see-more {{#ifEq pageIndex totalPages}} hidden {{/ifEq}}"
+              type="button"&gt;
+        {{ resources.buttonSeemore }}
+        &lt;span class="caret"&gt;&lt;/span&gt;
+      &lt;/button&gt;
+    {{/unless}}
+
+
+    
+    &lt;div class="clearfix {{#if isLandingPage }} hidden {{else}} hidden-xs {{/if}}"&gt;
+      &lt;form class="form-inline pull-left hidden-xs results-by-page {{#ifMinEq totalRecords 20}} hidden {{/ifMinEq}}"&gt;
+        &lt;div class="form-group"&gt;
+          &lt;label for="ResultsByPage" class="ee-mod hidden-sm"&gt;
+            {{ resources.resultsPerPageText }}
+          &lt;/label&gt;
+
+          &lt;select class="form-control js-results-by-page"
+                  id="ResultsByPage"
+                  name="ResultsByPage"&gt;
+            {{#each resultsByPage}}
+            &lt;option value="{{ this }}"
+                    {{#ifEq ../pageSize this}} selected {{/ifEq}}&gt;
+              {{this}}
+            &lt;/option&gt;
+            {{/each}}
+          &lt;/select&gt;
+        &lt;/div&gt;
+      &lt;/form&gt;
+
+      &lt;nav class="pull-right"&gt;
+        &lt;span class="visible-lg-inline-block results-data"&gt;
+          &lt;strong&gt;
+            {{ configPag.startIndex }}
+          &lt;/strong&gt;
+          {{ resources.resultsTo }}
+          &lt;strong&gt;
+            {{ configPag.endIndex }}
+          &lt;/strong&gt;
+          {{ resources.resultsFor }}
+          &lt;strong&gt;
+            {{ totalRecords }}
+          &lt;/strong&gt;
+          {{#ifEq totalRecords 1}}
+          {{ resources.resultsOneItemName }}
+          {{else}}
+          {{ resources.resultsItemsName }}
+          {{/ifEq}}
+        &lt;/span&gt;
+
+        &lt;ul class="pagination ee-mod {{#ifEq totalPages 1}} hidden {{/ifEq}}"&gt;
+          &lt;li class="{{#ifEq pageIndex 1}} disabled {{/ifEq}}"&gt;
+            &lt;a class="js-btn-prev"
+               href="#"
+               aria-label="Previous"&gt;
+              &lt;i class="fa fa-angle-left"&gt;&lt;/i&gt;
+            &lt;/a&gt;
+          &lt;/li&gt;
+
+          {{#configPag.pages}}
+          &lt;li class="{{#ifEq ../pageIndex this}} active {{/ifEq}}"&gt;
+            &lt;a class="js-page"
+               href="#"
+               data-page="{{ this }}"&gt;
+              {{ this }}
+              {{#ifEq ../pageIndex this}}
+              &lt;span class="sr-only"&gt;(current)&lt;/span&gt;
+              {{/ifEq}}
+            &lt;/a&gt;
+          &lt;/li&gt;
+          {{/configPag.pages}}
+
+          &lt;li class="{{#ifEq pageIndex totalPages}} disabled {{/ifEq}}"&gt;
+            &lt;a class="js-btn-next"
+               href="#"
+               aria-label="Next"&gt;
+              &lt;i class="fa fa-angle-right"&gt;&lt;/i&gt;
+            &lt;/a&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/nav&gt;
+    &lt;/div&gt;
+  {{/if}}
+</script>
+
+<script id="hbtpl-breadCrumb" type="text/x-handlebars-template">
+  &lt;div class="container"&gt;
+    &lt;ol class="breadcrumb hidden-xs hidden-sm" itemscope itemtype="http://schema.org/BreadcrumbList"&gt;
+        {{#each breadcrumbs}}
+          {{#if active }}
+            &lt;li class="active {{cssClass}}"
+                itemprop="itemListElement"
+                itemscope
+                itemtype="http://schema.org/ListItem"&gt;
+              &lt;span itemprop="name"&gt;
+                {{title}}
+              &lt;/span&gt;
+            &lt;/li&gt;
+          {{ else }}
+            &lt;li itemprop="itemListElement"
+                itemscope
+                itemtype="http://schema.org/ListItem"
+                class="{{cssClass}}"&gt;
+              &lt;a href="{{url}}"
+                 itemprop
+                 title="{{title}}"&gt;
+                &lt;span itemprop="name"&gt;
+                  {{title}}
+                &lt;/span&gt;
+              &lt;/a&gt;
+            &lt;/li&gt;
+          {{/if}}
+        {{/each}}
+    &lt;/ol&gt;
+  &lt;/div&gt;
+</script>
+
+
+  </div>
+
+  
+  
+  <input class="js-hdnvars" id="hdnvars" name="hdnvars" type="hidden" value="{ &quot;createAlertPostLogin&quot;:false}" />
+
+
+
+  
+  <script src="/resources/Scripts/dist/js/layout.main.vendor.min.js"></script>
+
+<script src="/resources/Scripts/dist/js/layout.main.ee.min.js"></script>
+
+  
+  <script src="/resources/Scripts/dist/js/Areas/JobOffers/ResultJobOffers.min.js"></script>
+
+  
+
+<script type="text/javascript">_satellite.pageBottom();</script><!-- Begin BlueKai Tag -->
+<script type="text/javascript">
+  //md5 and sha256 provided by https://github.com/jbt/js-crypto
+  var bket_md5 = function(){for(var m=[],l=0;64&gt;l;)m[l]=0|4294967296*Math.abs(Math.sin(++l));return function(c){var e,g,f,a,h=[];c=unescape(encodeURI(c));for(var b=c.length,k=[e=1732584193,g=-271733879,~e,~g],d=0;d&lt;=b;)h[d&gt;&gt;2]|=(c.charCodeAt(d)||128)&lt;&lt;8*(d++%4);h[c=16*(b+8&gt;&gt;6)+14]=8*b;for(d=0;d&lt;c;d+=16){b=k;for(a=0;64&gt;a;)b=[f=b[3],(e=b[1]|0)+((f=b[0]+[e&amp;(g=b[2])|~e&amp;f,f&amp;e|~f&amp;g,e^g^f,g^(e|~f)][b=a&gt;&gt;4]+(m[a]+(h[[a,5*a+1,3*a+5,7*a][b]%16+d]|0)))&lt;&lt;(b=[7,12,17,22,5,9,14,20,4,11,16,23,6,10,15,21][4*b+a++%4])|f&gt;&gt;&gt;32-b),e,g];for(a=4;a;)k[--a]=k[a]+b[a]}for(c="";32&gt;a;)c+=(k[a&gt;&gt;3]&gt;&gt;4*(1^a++&amp;7)&amp;15).toString(16);return c}}();
+  var bket_sha256 = function(){function e(a,b){return a&gt;&gt;&gt;b|a&lt;&lt;32-b}for(var b=1,a,m=[],n=[];18&gt;++b;)for(a=b*b;312&gt;a;a+=b)m[a]=1;b=1;for(a=0;313&gt;b;)m[++b]||(n[a]=Math.pow(b,.5)%1*4294967296|0,m[a++]=Math.pow(b,1/3)%1*4294967296|0);return function(g){for(var l=n.slice(b=0),c=unescape(encodeURI(g)),h=[],d=c.length,k=[],f,p;b&lt;d;)k[b&gt;&gt;2]|=(c.charCodeAt(b)&amp;255)&lt;&lt;8*(3-b++%4);d*=8;k[d&gt;&gt;5]|=128&lt;&lt;24-d%32;k[p=d+64&gt;&gt;5|15]=d;for(b=0;b&lt;p;b+=16){for(c=l.slice(a=0,8);64&gt;a;c[4]+=f)h[a]=16&gt;a?k[a+b]:(e(f=h[a-2],17)^e(f,19)^f&gt;&gt;&gt;10)+(h[a-7]|0)+(e(f=h[a-15],7)^e(f,18)^f&gt;&gt;&gt;3)+(h[a-16]|0),c.unshift((f=(c.pop()+(e(g=c[4],6)^e(g,11)^e(g,25))+((g&amp;c[5]^~g&amp;c[6])+m[a])|0)+(h[a++]|0))+(e(d=c[0],2)^e(d,13)^e(d,22))+(d&amp;c[1]^c[1]&amp;c[2]^c[2]&amp;d));for(a=8;a--;)l[a]=c[a]+l[a]}for(c="";63&gt;a;)c+=(l[++a&gt;&gt;3]&gt;&gt;4*(7-a%8)&amp;15).toString(16);return c}}();
+
+  function bket_hash(str) {
+    bket_hash_time(str, 24 * 365);
+  }
+
+  function bket_hash_time(str, exphours) {
+    if (str != "") {
+      str = str.toLowerCase();
+      var email = str.substring(0, str.indexOf("@"));
+      var hash = bket_md5(email);
+      hash = str + hash;
+      hash = bket_sha256(hash);
+
+      if (bket_get_cookie("bket_i") != hash) {
+        bket_set_cookie("bket_i", hash, exphours);
+        bket_delete_cookie("bket_e");
+        bket_check_hash();
+      }
+    }
+  }
+
+  function bket_check_hash() {
+    var id = bket_get_cookie("bket_i");
+    if (id != "") {
+      var exp = bket_get_cookie("bket_e");
+      if (exp == "") {
+        //Create expiration cookie valid for 6 days
+        bket_set_cookie("bket_e", Math.random() * 100, 6 * 24);
+
+        //Call bluekai tag
+        bk_addPageCtx("id", id);
+
+        bk_allow_multiple_calls = true; 
+        bk_use_multiple_iframes = true;
+
+        BKTAG.doTag(_satellite.getDataElement('BK_CeetId'), 10);
+      }
+    }
+  }
+
+  function bket_set_cookie(cname, cval, exphours) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exphours * 60 * 60 * 1000));
+    var expires = "expires=" + d.toUTCString();
+    document.cookie = cname + "=" + cval + "; " + expires + ";path=/";
+  }
+
+  function bket_get_cookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for (var i = 0; i &lt; ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') c = c.substring(1);
+      if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+    }
+    return "";
+  }  
+
+  function bket_delete_cookie(cname) {
+    document.cookie = cname + '=;path=/;expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+  }
+
+  function bket_data_collection() {
+    bk_allow_multiple_calls = true; 
+    bk_use_multiple_iframes = true;
+
+    _satellite.getDataElement('BK_JobDetailVars');
+
+    BKTAG.doTag(_satellite.getDataElement('BK_SiteId'), 10);
+  }
+
+  window.bk_async = function() {
+    if (typeof(bket_callback) == "function") {
+      bket_callback();
+    }
+
+    bket_check_hash();
+    bket_data_collection();
+  };
+
+  (function() {
+    var scripts = document.getElementsByTagName('script')[0];
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = "https://tags.bkrtx.com/js/bk-coretag.js";
+    scripts.parentNode.insertBefore(s, scripts);
+  }());
+</script>
+<!-- End BlueKai Tag -->
+
+
+  
+
+
+<script>
+  //Global conf
+  var $globalConfData = $('.js-conf-global-data');
+  var $dmpEnable = $globalConfData.data('dmp-enable') ? $globalConfData.data('dmp-enable').toLowerCase() == "true" : false;
+  if($dmpEnable){
+    function bket_callback() {
+      var email = '';
+      if (typeof (bket_hash) == 'function') {
+        bket_hash(email);
+      }
+    }
+  }
+</script>
+
+
+
+<iframe name="__bkframe" id="__bkframe" title="bk" src="about:blank" style="border: 0px; width: 0px; height: 0px; display: none; position: absolute; clip: rect(0px, 0px, 0px, 0px);"></iframe><iframe name="__bkframe_34070_1551753651596" id="__bkframe_34070_1551753651596" title="bk" src="https://stags.bluekai.com/site/34070?ret=html&amp;phint=ciudad%3DBogot%C3%A1&amp;phint=__bk_t%3DOfertas%20de%20Empleo%20Contador%20en%20Bogot%C3%A1%20-%20elempleo.com&amp;phint=__bk_k%3D&amp;phint=__bk_pr%3Dhttps%3A%2F%2Fwww.elempleo.com%2Fco&amp;phint=__bk_l%3Dhttps%3A%2F%2Fwww.elempleo.com%2Fco%2Fofertas-empleo%2Fbogota%3F%26trabajo%3DContador&amp;limit=10&amp;r=83934335" class="__bkframe_site_34070" style="border: 0px; width: 0px; height: 0px; display: none; position: absolute; clip: rect(0px, 0px, 0px, 0px);"></iframe><div style="display: none; visibility: hidden;">
+
+<script type="text/javascript">var google_conversion_id=1010759038,google_custom_params=window.google_tag_params,google_remarketing_only=!0;</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+<noscript></noscript>
+</div>
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","2012589828987055");fbq("track","PageView");</script>
+<noscript>&lt;img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2012589828987055&amp;amp;ev=PageView&amp;amp;noscript=1"&gt;</noscript>
+
+<meta name="theme-color" content="#0573BC" /><iframe src="//us.creativecdn.com/tags?id=pr_00c3TVppqKLy30Yplpne&amp;ncm=1" width="1" height="1" scrolling="no" frameborder="0" style="display: none;"></iframe><script type="text/javascript" charset="ISO-8859-1" async="" src="https://pixel.yabidos.com/flimpobj.js?cb=1551753651928&amp;ver1=2.2.2&amp;qid=034393f5534393f5734363&amp;rnd=2hyub03sq804&amp;cid=647" name="f1551753652738"></script><div id="flpx_adb" class="pub_300x250 pub_300x250m pub_728x90 text-ad textAd text_ad text_ads text-ads text-ad-links" style="width: 1px !important; height: 1px !important; position: absolute !important; left: -10000px !important; top: -10000px !important;"></div><iframe src="https://bid.g.doubleclick.net/xbbe/pixel?d=KAE" style="display: none;"></iframe><iframe src="//us.creativecdn.com/tags?id=pr_00c3TVppqKLy30Yplpne_category2_bogota" width="1" height="1" scrolling="no" frameborder="0" style="display: none;"></iframe><iframe src="//us.creativecdn.com/tags?id=pr_00c3TVppqKLy30Yplpne_listing_1883899997%2C1883899643%2C1883685215%2C1883899638%2C1883899631" width="1" height="1" scrolling="no" frameborder="0" style="display: none;"></iframe><iframe name="__bkframe_34070_1551753659612" id="__bkframe_34070_1551753659612" title="bk" src="https://stags.bluekai.com/site/34070?ret=html&amp;phint=area%3D&amp;phint=ciudad%3DBogot%C3%A1&amp;phint=__bk_t%3DOfertas%20de%20Empleo%20Contador%20en%20Bogot%C3%A1%20-%20elempleo.com&amp;phint=__bk_k%3D&amp;phint=__bk_pr%3Dhttps%3A%2F%2Fwww.elempleo.com%2Fco&amp;phint=__bk_l%3Dhttps%3A%2F%2Fwww.elempleo.com%2Fco%2Fofertas-empleo%2Fbogota%3F%26trabajo%3DContador&amp;limit=10&amp;r=87660517" class="__bkframe_site_34070" style="border: 0px; width: 0px; height: 0px; display: none; position: absolute; clip: rect(0px, 0px, 0px, 0px);"></iframe><iframe src="//us.creativecdn.com/tags?id=pr_00c3TVppqKLy30Yplpne_category2_bogota" width="1" height="1" scrolling="no" frameborder="0" style="display: none;"></iframe><iframe src="//us.creativecdn.com/tags?id=pr_00c3TVppqKLy30Yplpne_listing_1883899997%2C1883899643%2C1883899638%2C1883899554%2C1883873687" width="1" height="1" scrolling="no" frameborder="0" style="display: none;"></iframe><iframe name="__bkframe_34070_1551753660701" id="__bkframe_34070_1551753660701" title="bk" src="https://stags.bluekai.com/site/34070?ret=html&amp;phint=area%3D&amp;phint=ciudad%3DBogot%C3%A1&amp;phint=salario%3D1a15&amp;phint=__bk_t%3DOfertas%20de%20Empleo%20Contador%20en%20Bogot%C3%A1%20-%20elempleo.com&amp;phint=__bk_k%3D&amp;phint=__bk_pr%3Dhttps%3A%2F%2Fwww.elempleo.com%2Fco&amp;phint=__bk_l%3Dhttps%3A%2F%2Fwww.elempleo.com%2Fco%2Fofertas-empleo%2Fbogota%3Ftrabajo%3DContador&amp;limit=10&amp;r=95694053" class="__bkframe_site_34070" style="border: 0px; width: 0px; height: 0px; display: none; position: absolute; clip: rect(0px, 0px, 0px, 0px);"></iframe><iframe src="//us.creativecdn.com/tags?id=pr_00c3TVppqKLy30Yplpne_category2_bogota%2F1-15-millones" width="1" height="1" scrolling="no" frameborder="0" style="display: none;"></iframe><iframe src="//us.creativecdn.com/tags?id=pr_00c3TVppqKLy30Yplpne_listing_1883873687%2C1883832526%2C1883899422%2C1883899237%2C1883899161" width="1" height="1" scrolling="no" frameborder="0" style="display: none;"></iframe></body></html>
